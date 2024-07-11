@@ -237,8 +237,8 @@ export default function Page() {
                   className="text-blue-500 hover:underline"
                 >
                   socials
-                </Link>{" "}
-                , Let's have a quick chat.
+                </Link>{""}
+                , Lets have a quick chat.
               </p>
             </div>
           </BlurFade>
