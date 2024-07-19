@@ -3,8 +3,8 @@ import { getBlogPosts } from "@/data/blog";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Blog",
-  description: "My thoughts on software development, life, and more.",
+  title: "Amaan Bhati Blog Page",
+  description: "Amaan Bhati blog site built and crafted on top of Nextjs. This is where I post blogs majorly based on my experiences and interests in tech. Unleash your potential with practical insights, best practices, and productivity hacks, explore my blog site!",
 };
 
 const BLUR_FADE_DELAY = 0.04;

@@ -105,7 +105,7 @@ export const DATA = {
       badges: [],
       location: "Om-Site",
       title: "Web and Software intern",
-      logoUrl: "/kiit-logo.png",
+      logoUrl: "/kiit-logo.webp",
       start: "Feb 2024",
       end: "June 2024",
       description:
@@ -117,7 +117,7 @@ export const DATA = {
       href: "https://mlsakiit.com",
       location: "On-Site",
       title: "Web Development Lead",
-      logoUrl: "/mlsa-logo.png",
+      logoUrl: "/mlsa-logo.webp",
       start: "July 2023",
       end: "July 2024",
       description:
@@ -130,7 +130,7 @@ export const DATA = {
       school: "KIIT University",
       href: "https://kiit.ac.in",
       degree: "B.Tech in Computer Science and Engineering",
-      logoUrl: "/kiit-logo.png",
+      logoUrl: "/kiit-logo.webp",
       start: "2021",
       end: "2025",
     },
