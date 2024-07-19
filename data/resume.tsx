@@ -4,7 +4,7 @@ import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 export const DATA = {
   
   name: "Amaan Bhati",
-  initials: "DV",
+  initials: "AB",
   url: "https://amaanbhati.tech",
   location: "Bangalore, India",
   locationLink: "https://www.google.com/maps/place/bangalore",
@@ -36,6 +36,35 @@ export const DATA = {
     "GIT",
     "Github",
     "Bash",
+    
+  ],
+  frontendSkills: [
+    "React.js",
+    "Next.js",
+    "Redux",
+    "Three.js",
+    "CSS",
+    "TailwindCSS",
+    "Shadcn",
+    "Magic UI",
+    "SCSS",
+    "Framer Motion",
+    "GSAP",
+  ],
+  backendSkills: [
+    "Nodejs",
+    "Expressjs",
+    "Mongodb",
+    "Postgres",
+    "Postman",
+    "Supabase",
+    "NeonDB",
+  ],
+  tools: [
+    "VS Code",
+    "GIT",
+    "Github",
+    "Bash",
     "AWS EC2",
     "AWS S3",
     "Wappalyzer",
@@ -49,7 +78,8 @@ export const DATA = {
     "Figma",
     "Chatgpt",
   ],
-  navbar: [
+
+   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
     // { href: "#", icon: CodeIcon, label: "Projects" },

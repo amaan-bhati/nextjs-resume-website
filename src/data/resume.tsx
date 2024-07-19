@@ -4,7 +4,7 @@ import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 export const DATA = {
   
   name: "Amaan Bhati",
-  initials: "DV",
+  initials: "AB",
   url: "https://amaanbhati.tech",
   location: "Bangalore, India",
   locationLink: "https://www.google.com/maps/place/bangalore",
@@ -14,6 +14,10 @@ export const DATA = {
     "Result driven final year Computer Science student with a strong aptitude for development and proficiency in modern frameworks. Eager to contribute technical skills and innovation to a dynamic software engineering role in a cutting-edge tech environment. Recognized for being a quick learner with the ability to swiftly adapt to new technology stacks",
   avatarUrl: "/me.png",
   skills: [
+    "Javascript", "Typescript", "HTML", "CSS", "SQL", "C++", "Python"
+
+  ],
+  frontendSkills: [
     "React.js",
     "Next.js",
     "Redux",
@@ -25,6 +29,8 @@ export const DATA = {
     "SCSS",
     "Framer Motion",
     "GSAP",
+  ],
+  backendSkills: [
     "Nodejs",
     "Expressjs",
     "Mongodb",
@@ -32,6 +38,8 @@ export const DATA = {
     "Postman",
     "Supabase",
     "NeonDB",
+  ],
+  tools: [
     "VS Code",
     "GIT",
     "Github",
