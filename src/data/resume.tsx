@@ -168,32 +168,7 @@ export const DATA = {
       video: "",
     },
     
-    {
-      title: "GITHUB LANDING PAGE CLONE",
-      href: "https://github-clone-by-amaan.vercel.app/",
-      dates: "June 2023 - Present",
-      active: true,
-      description:"",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://github-clone-by-amaan.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/amaan-bhati/github-landing-page-clone",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
+   
   ],
   
 } as const;
