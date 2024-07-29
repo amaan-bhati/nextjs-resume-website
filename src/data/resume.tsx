@@ -125,6 +125,7 @@ export const DATA = {
     },
     
   ],
+
   education: [
     {
       school: "KIIT University",
@@ -139,7 +140,7 @@ export const DATA = {
 
 
   projects: [
-    
+    //zeroth-project
     {
       title: "GITHUB LANDING PAGE CLONE",
       href: "https://github-clone-by-amaan.vercel.app/",
@@ -167,8 +168,149 @@ export const DATA = {
       image: "",
       video: "",
     },
+
+    {//first-project
+      title: "React Moodboard",
+      href: "https://moodboardbyamaan.vercel.app/",
+      dates: "June 2023 - Present",
+      active: true,
+      description:
+        "This project is a user-friendly, interactive moodboard application built with React.js. It empowers users to create visually inspiring collages through intuitive drag-and-drop functionality.",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "CSS",
+        "Emotion",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://moodboardbyamaan.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/amaan-bhati/react-moodboard",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+
+//second-project
+    {
+      title: "Dice roller Threejs",
+      href: "https://dice-roller-blond.vercel.app/",
+      dates: "June 2023 - Present",
+      active: true,
+      description:
+        "This project is a fun and interactive dice roller application featuring two animated 3D dice models. It simulates a realistic dice roll with animation and provides the sum of both dice as the final output.",
+      technologies: [
+        "HTML",
+        "Threejs",
+        "CSS",
+        "HTML Canvas",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://dice-roller-blond.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/amaan-bhati/dice-roller-threejs",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+
+//third-project
+    {
+      title: "Drag and drop using computer vision",
+      href: "https://github.com/amaan-bhati/drag-and-drop-computer-vision",
+      dates: "June 2023 - Present",
+      active: true,
+      description:
+        "Finger Drag & Drop (Python & OpenCV) Control your screen with your fingers! Use computer vision to drag and drop objects for an intuitive and touchless user experience.",
+      technologies: [
+        "Python",
+        "Opencv",
+        "Computer Vision",
+      ],
+      links: [
+       
+        {
+          type: "Source",
+          href: "https://github.com/amaan-bhati/drag-and-drop-computer-vision",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+
+    //fourth-project
+    {
+      title: "HEX code opacity Generator",
+      href: "https://hexcode-opacity-generator.vercel.app/",
+      dates: "June 2023 - Present",
+      active: true,
+      description:
+        "This React.js application empowers you to explore the vast world of color possibilities while streamlining your design process. It serves as a user-friendly hex code opacity generator, offering a convenient and efficient way to generate and adjust hex color codes with varying levels of transparency.",
+      technologies: [
+        "Reactjs",
+        "Javascript",
+        "CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://hexcode-opacity-generator.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/amaan-bhati/hex-code-generatore",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
     
    
   ],
+
+  // testimonials: [
+  //   {
+  //     company: "Chatgpt",
+  //     href: "",
+  //     badges: [],
+      
+  //     title: "AI Tool at Openai",
+  //     logoUrl: "/chatgpt-logo.webp",
+  //     start: "Feb 2024",
+  //     end: "June 2024",
+  //     description:
+  //       "Hi Amaan, thanks for always bringing the best out of my potetntial whilst always being polite with me. You're amazing!",
+  //   },
+  //   {
+  //     company: "Morgan Stanley",
+  //     badges: [],
+  //     href: "https://mlsakiit.com",
+  //     location: "On-Site",
+  //     title: "Web Development Lead",
+  //     logoUrl: "/mlsa-logo.webp",
+  //     start: "July 2023",
+  //     end: "July 2024",
+  //     description:
+  //       "Led High-Performing Tech Team: Managed a team of 20+ designers, front-end, and back-end developers, fostering collaboration and driving project success. Oversaw the development of multiple high-traffic website, ensuring high functionality and scalability. Led initiatives to build a vibrant tech community, attracting, hosting and engaging aspiring developers through various events and activities. Pioneered High-Traffic Community Website: Led the design and development of the official MLSAKIIT website, utilizing Figma for UI/UX design and leveraging cutting-edge Next.js and Tailwind CSS frameworks. The website efficiently handles high traffic due to its robust architecture and scalability.Implemented the idea of user dashboard and digital passes for tech events making the entry smooth and fast using Next.js when it was not yet mainstream.",
+  //   },
+    
+  // ],
   
 } as const;
