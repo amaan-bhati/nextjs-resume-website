@@ -187,6 +187,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+      
       {/* <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>

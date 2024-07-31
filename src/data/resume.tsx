@@ -137,8 +137,7 @@ export const DATA = {
     },
    
   ],
-
-
+ 
   projects: [
     //zeroth-project
     {
@@ -285,32 +284,89 @@ export const DATA = {
    
   ],
 
-  // testimonials: [
-  //   {
-  //     company: "Chatgpt",
-  //     href: "",
-  //     badges: [],
+  testimonials: [
+    {
+      company: "Chatgpt",
+      href: "",
+      badges: [],
       
-  //     title: "AI Tool at Openai",
-  //     logoUrl: "/chatgpt-logo.webp",
-  //     start: "Feb 2024",
-  //     end: "June 2024",
-  //     description:
-  //       "Hi Amaan, thanks for always bringing the best out of my potetntial whilst always being polite with me. You're amazing!",
-  //   },
-  //   {
-  //     company: "Morgan Stanley",
-  //     badges: [],
-  //     href: "https://mlsakiit.com",
-  //     location: "On-Site",
-  //     title: "Web Development Lead",
-  //     logoUrl: "/mlsa-logo.webp",
-  //     start: "July 2023",
-  //     end: "July 2024",
-  //     description:
-  //       "Led High-Performing Tech Team: Managed a team of 20+ designers, front-end, and back-end developers, fostering collaboration and driving project success. Oversaw the development of multiple high-traffic website, ensuring high functionality and scalability. Led initiatives to build a vibrant tech community, attracting, hosting and engaging aspiring developers through various events and activities. Pioneered High-Traffic Community Website: Led the design and development of the official MLSAKIIT website, utilizing Figma for UI/UX design and leveraging cutting-edge Next.js and Tailwind CSS frameworks. The website efficiently handles high traffic due to its robust architecture and scalability.Implemented the idea of user dashboard and digital passes for tech events making the entry smooth and fast using Next.js when it was not yet mainstream.",
-  //   },
+      title: "AI Tool at Openai",
+      logoUrl: "/chatgpt-logo.webp",
+      start: "",
+      end: "",
+      description:
+        "Hi Amaan, thanks for always bringing the best out of my potetntial whilst always being polite with me. You're amazing!",
+    },
+    {
+      company: "D Chadrashekhar Reddy",
+      badges: [],
+      href: "https://instagram.com/_shekhar_reddy_",
+      location: "On-Site",
+      title: "Student at KIIT Bhubaneswar",
+      logoUrl: "/shekhar.webp",
+      start: "",
+      end: "",
+      description:
+        "I've had the pleasure of knowing Amaan for the past three years, and I can confidently say that he's not only an exceptional developer but also a remarkable individual. During our time in college, Amaan quickly became the go-to person for anyone needing tech-related assistance or general advice. His vast knowledge across various tech stacks and his willingness to help others—regardless of the complexity of the issue—truly set him apart. Beyond his technical expertise, Amaan is incredibly approachable and patient, qualities that make him a pleasure to work with. He has faced both ups and downs, and his growth and gratitude for his experiences only add to his character. Amaan's dedication, combined with his genuine nature, makes him a standout professional and a wonderful person",
+    },
     
-  // ],
+    
+  ],
+
+  portfolio: [
+    //zeroth-project
+    {
+      title: "React typing js portfolio",
+      href: "https://amaanbhati.tech",
+      dates: "June 2021 - Present",
+      active: true,
+      description:
+        "One of the notable designs I created is built on top of ReactJS, standing tall and responsive for the last two years. This website features a typing effect on the landing page and Particle.js in the background, which was the most trending design pattern for two consecutive years in 2022 and 2023. The typing effect wasn't just popular in portfolio websites but also became a staple in many modern websites of that era. However, this design trend had a dual nature. While the animations in the loader, landing page background, and throughout the website were eye-catching and visually appealing, they came with significant drawbacks. These animations required considerable time to load and perform flawlessly, especially without caching. This not only increased the load time but also affected the website's bandwidth usage, making it more expensive to host and deploy on a domain. Additionally, the performance of the website suffered, with scores below 70 on desktop and below 50 on mobile devices. This led to a poor user experience due to slow loading times and high bandwidth consumption.",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "CSS",
+        "Typingjs",
+        "Particlejs",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://amaan-bhati.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+       
+      ],
+      image: "",
+      video: "",
+    },
+
+
+    {
+      title: "Nextjs static bento grid",
+      href: "https://contact.amaanbhati.tech",
+      dates: "June 2024 - Present",
+      active: true,
+      description:
+        " Built upon Next.js and TailwindCSS, and enhanced with subtle Framer animations, this website employs the innovative Bento Grid design system of 2024. It features a static and straightforward layout where elements, designed as boxes or cards, are distributed randomly, eschewing parallelism for a dynamic visual appeal. This design is inspired by the Bento Grids system, an advanced iteration of Linktree, which allows users to consolidate links to various social media profiles and other important resources in one streamlined interface. The website is optimized for performance, boasting incredibly fast load and render times that enhance the user experience by 200%. It achieves a perfect SEO score of 100 for both mobile and desktop views, thanks to its minimal bandwidth usage. This efficiency not only ensures a seamless user experience but also provides a cost-effective deployment solution, making it both user-friendly and economical.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Framer-Motion",
+        "Javascript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://contact.amaanbhati.tech",
+          icon: <Icons.globe className="size-3" />,
+        },
+       
+      ],
+      image: "",
+      video: "",
+    },
+  ],
   
 } as const;
