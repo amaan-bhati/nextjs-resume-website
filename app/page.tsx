@@ -290,7 +290,7 @@ export default function Page() {
                   Previous portfolios
                 </h2>
                 <p className=" text-muted-bold-foreground md:text-xs/relaxed s:text-base/relaxed s:text-s/relaxed">
-                 Portfolios are very important as a developer to showcase your skills, work and above all to connect with like minded people and potential employers. But above all it is also an opportunity for a developer to stay updated with the design trends. I've been working as a web develper since 2021, where I've seen design trends change drastically from just static html, css websites, to complex and attractive 3d websites and now simple and very well performing bento grids in 2024. I've made them all, and hence here's a bunch of my previous portfolios. 
+                 Portfolios are very important as a developer to showcase your skills, work and above all to connect with like minded people and potential employers. But above all it is also an opportunity for a developer to stay updated with the design trends. Ive been working as a web develper since 2021, where Ive seen design trends change drastically from just static html, css websites, to complex and attractive 3d websites and now simple and very well performing bento grids in 2024. Ive made them all, and hence heres a bunch of my previous portfolios. 
                 </p>
               </div>
             </div>
