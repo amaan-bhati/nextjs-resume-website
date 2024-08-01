@@ -280,6 +280,34 @@ export const DATA = {
       image: "",
       video: "",
     },
+
+    //fifth-card
+
+    {
+      title: "Other Projects",
+      href: "https://github.com/amaan-bhati",
+      dates: "Nov 2021 - Present",
+      active: true,
+      description:
+        "Check out all of my projects by visiting my github and checking out all of the project repositiories. Each project repository contains the source code for the project, detailed about section explaining the project and even live links on each project in case of web development based projects",
+      technologies: [
+        
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://amaanbhati.tech/projects/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/amaan-bhati",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
     
    
   ],
