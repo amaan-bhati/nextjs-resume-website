@@ -253,7 +253,7 @@ export default function Page() {
           </BlurFade> 
         </div>
       </section>*/}
-
+{/* 
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -316,7 +316,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }
