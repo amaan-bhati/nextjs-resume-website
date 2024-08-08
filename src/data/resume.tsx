@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Web Developer with 2+ years of web development experience, aspiring a fulltime software developer role.",
   summary:
-    "Result driven final year Computer Science student with a strong aptitude for development and proficiency in modern frameworks. Eager to contribute technical skills and innovation to a dynamic software engineering role in a cutting-edge tech environment. Recognized for being a quick learner with the ability to swiftly adapt to new technology stacks",
+    "Result driven final year Computer Science student with a strong aptitude for development and proficiency in modern frameworks. Eager to contribute technical skills and innovation to a dynamic software engineering role in a cutting-edge tech environment. Recognized for being a quick learner with the ability to swiftly adapt to new technology stacks.",
   avatarUrl: "/me.png",
   skills: [
     "Javascript", "Typescript", "HTML", "CSS", "SQL", "C++", "Python"
@@ -111,6 +111,8 @@ export const DATA = {
       description:
         "~KIIT Digital is the tech backbone of KIIT University, responsible for crafting user-friendly interfaces for all university school and conference websites. KIIT Digital also manage and support software applications crucial for the Computer Science & Engineering department, ensuring smooth operation for faculty and students. I worked as a Web/Software developer in order to develop and implement responsive user interfaces (UIs) and software for multiple KIIT University school and conference websites. I also Collaborated closely with KIIT Digital designers to translate UI mockups into user-friendly front-end code. Optimized website UIs for improved user experience (UX) and faster loading times, adhering to best practices for web performance. Implemented accessibility features to ensure all users can navigate KIIT University websites effectively. Utilized modern software technologies to build dynamic and interactive website elements.Established a code review process to maintain code quality and consistency across KIIT Digital projects.",
     },
+
+
     {
       company: "Microsoft Learn Student Ambassador, KIIT Chapter",
       badges: [],
@@ -123,18 +125,55 @@ export const DATA = {
       description:
         "Led High-Performing Tech Team: Managed a team of 20+ designers, front-end, and back-end developers, fostering collaboration and driving project success. Oversaw the development of multiple high-traffic website, ensuring high functionality and scalability. Led initiatives to build a vibrant tech community, attracting, hosting and engaging aspiring developers through various events and activities. Pioneered High-Traffic Community Website: Led the design and development of the official MLSAKIIT website, utilizing Figma for UI/UX design and leveraging cutting-edge Next.js and Tailwind CSS frameworks. The website efficiently handles high traffic due to its robust architecture and scalability.Implemented the idea of user dashboard and digital passes for tech events making the entry smooth and fast using Next.js when it was not yet mainstream.",
     },
+
+    {
+      company: "GSSoC",
+      badges: [],
+      href: "https://gssoc.girlscript.tech/",
+      location: "Remote",
+      title: "Open Source Mentor",
+      logoUrl: "/gssoc-logo.webp",
+      start: "May 2024",
+      end: "Aug 2024",
+      description:
+        "",
+    },
+
+    {
+      company: "Ziroh Labs",
+      badges: [],
+      href: "https://ziroh.social",
+      location: "On-Site",
+      title: "EWL Project Member",
+      logoUrl: "/ziroh-labs-logo.webp",
+      start: "Nov 2023",
+      end: "Jan 2024",
+      description:
+        "",
+    },
+
+   
     
   ],
 
   education: [
     {
-      school: "KIIT University",
+      school: "KIIT University, Bhubaneswar",
       href: "https://kiit.ac.in",
       degree: "B.Tech in Computer Science and Engineering",
       logoUrl: "/kiit-logo.webp",
       start: "2021",
       end: "2025",
     },
+    {
+      school: "Pitts Modern School, Bokaro",
+      href: "https://kiit.ac.in",
+      degree: "Upto class 10th and High School education in PCM and CS",
+      logoUrl: "/pms-logo.webp",
+      start: "2008",
+      end: "2021",
+    },
+   
    
   ],
  
