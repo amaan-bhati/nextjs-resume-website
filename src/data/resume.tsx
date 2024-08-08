@@ -152,6 +152,19 @@ export const DATA = {
         "",
     },
 
+    
+    {
+      company: "TEDxKIIT",
+      badges: [],
+      href: "https://tedxkiituniversity.in",
+      location: "On-Site",
+      title: "Web Developer and OC member",
+      logoUrl: "/tedx.webp",
+      start: "Mar 2023",
+      end: "Apr 2023",
+      description:
+        "",
+    },
    
     
   ],
