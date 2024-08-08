@@ -277,6 +277,9 @@ export default function Page() {
               />
             </BlurFade>
           ))}
+           <BlurFade delay={BLUR_FADE_DELAY * 5}>
+            <h4 className="text-s font-semi-bold">Worked with me? know me personally? or liked my work? Feel free to give me a testimonial. Feel free to share your opinion about my work on my socials and your testimonial will be added in this section too!</h4>
+          </BlurFade>
         </div>
       </section>
 
