@@ -141,8 +141,6 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
-
-
         </div>
       </section>
       <section id="projects">
@@ -157,9 +155,9 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve lead, made and worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I&apos;ve lead, made and worked on a variety of projects, from
+                  simple websites to complex web applications. Here are a few of
+                  my favorites.
                 </p>
               </div>
             </div>
@@ -277,8 +275,20 @@ export default function Page() {
               />
             </BlurFade>
           ))}
-           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h4 className="text-s font-semi-bold">Worked with me? know me personally? or liked my work?  Feel free to share your opinion about my work on my socials and your testimonial will be added in this section too!</h4>
+          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+            <h4 className="text-s font-semi-bold">
+              Worked with me? know me personally? or liked my work? Feel free to
+              share your opinion about my work on this{" "}
+              <a
+                href="https://forms.gle/DuJDvQ5e6VhKf7et8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 underline"
+              >
+                form
+              </a>{" "}
+              and your testimonial will be added in this section too!
+            </h4>
           </BlurFade>
         </div>
       </section>
@@ -288,12 +298,20 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-               
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Previous portfolios
                 </h2>
                 <p className=" text-muted-bold-foreground md:text-xs/relaxed s:text-base/relaxed s:text-s/relaxed">
-                 Portfolios are very important as a developer to showcase your skills, work and above all to connect with like minded people and potential employers. But above all it is also an opportunity for a developer to stay updated with the design trends. Ive been working as a web develper since 2021, where Ive seen design trends change drastically from just static html, css websites, to complex and attractive 3d websites and now simple and very well performing bento grids in 2024. Ive made them all, and hence heres a bunch of my previous portfolios. 
+                  Portfolios are very important as a developer to showcase your
+                  skills, work and above all to connect with like minded people
+                  and potential employers. But above all it is also an
+                  opportunity for a developer to stay updated with the design
+                  trends. Ive been working as a web develper since 2021, where
+                  Ive seen design trends change drastically from just static
+                  html, css websites, to complex and attractive 3d websites and
+                  now simple and very well performing bento grids in 2024. Ive
+                  made them all, and hence heres a bunch of my previous
+                  portfolios.
                 </p>
               </div>
             </div>
@@ -319,7 +337,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </section> 
+      </section>
     </main>
   );
 }

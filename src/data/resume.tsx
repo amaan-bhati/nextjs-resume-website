@@ -472,7 +472,7 @@ export const DATA = {
       ],
       image: "",
       video: "",
-    },
+    },  
 
   ],
   
