@@ -447,6 +447,33 @@ export const DATA = {
       image: "",
       video: "",
     },
+
+    {
+      title: "3d Portfolio Website using threejs",
+      href: "https://contact.amaanbhati.tech",
+      dates: "June 2024 - Present",
+      active: true,
+      description:
+        "One of the most accomplished projects is a 3D website built using ReactJS, plain CSS, GSAP and Three.js, with Vite for efficient builds. This site was based on the 3D web design trend that surged in popularity in 2022 and 2023, celebrated for its visual appeal and technical sophistication. The website’s centerpiece is a captivating 3D model on the landing page, crafted with Three.js, which immediately engages users and sets a dynamic tone for their experience. This model is more than just a visual element; it’s integrated with smooth animations that enhance interactivity across the site. Every section, from the project portfolio to contact and social links, is meticulously designed to harmonize with the 3D elements, making navigation both intuitive and visually engaging. The design is a masterclass in minimalism, balancing simplicity with innovation. The layout is clean and uncluttered, allowing the 3D features to stand out without overwhelming the user. The color scheme is deliberately minimalistic, offering both light and dark modes that are equally aesthetically pleasing. The light mode provides a fresh, modern look, while the dark mode adds a sleek, sophisticated feel, ensuring the site is visually appealing in any context. Despite the challenges inherent in 3D web design, particularly in maintaining performance, this project successfully optimizes load times and ensures a smooth user experience, a common issue in 3D-heavy sites. This website not only showcases my expertise with advanced web technologies like Three.js but also highlights my ability to create designs that prioritize both aesthetics and functionality. The result is a website that is as visually stunning as it is technically robust, reflecting the forefront of modern web development. This 3D website stands as a significant achievement in my portfolio, demonstrating my commitment to innovation in web design.",
+      technologies: [
+        "Reactjs",
+        "Javascript",
+        "CSS",
+        "GSAP",
+        "Javascript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://amaanbhati3dportfolio.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+       
+      ],
+      image: "",
+      video: "",
+    },
+
   ],
   
 } as const;
