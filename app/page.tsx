@@ -303,7 +303,7 @@ export default function Page() {
                 </h2>
                 <p className=" text-muted-bold-foreground md:text-xs/relaxed s:text-base/relaxed s:text-s/relaxed">
                   Portfolios are very important as a developer to showcase your
-                  skills, work and above all to connect with like minded people
+                  skills, work and to connect with like minded people
                   and potential employers. But above all it is also an
                   opportunity for a developer to stay updated with the design
                   trends. Ive been working as a web develper since 2021, where
