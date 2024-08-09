@@ -413,7 +413,7 @@ export const DATA = {
       start: "",
       end: "",
       description:
-        "I've had the pleasure of knowing Amaan for the past three years, and I can confidently say that he's not only an exceptional developer but also a remarkable individual. During our time in college, Amaan quickly became the go-to person for anyone needing tech-related assistance or general advice. His vast knowledge across various tech stacks and his willingness to help others—regardless of the complexity of the issue—truly set him apart. Beyond his technical expertise, Amaan is incredibly approachable and patient, qualities that make him a pleasure to work with. He has faced both ups and downs, and his growth and gratitude for his experiences only add to his character. Amaan's dedication, combined with his genuine nature, makes him a standout professional and a wonderful person",
+        "Amaan is an exceptional professional with whom I collaborated on a benchmarking-based minor project. His development background, consistency in delivering high-quality work, and ability to tackle complex problems sets him apart. Despite his impressive skills, he remains down-to-earth and humble. He approaches each task with genuine enthusiasm and a willingness to learn, never hesitating to seek input or share his knowledge. His clear communication and patience in explaining technical concepts make him an invaluable team member and an asset to any project or team.",
     },
     
   ],
