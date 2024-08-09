@@ -41,7 +41,7 @@ export default function Page() {
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-xl font-bold">About</h2>
+          <h2 className="text-2xl font-bold">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
@@ -52,7 +52,7 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Work Experience</h2>
+            <h2 className="text-3xl font-bold">Work Experience</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade
@@ -77,7 +77,7 @@ export default function Page() {
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
-            <h2 className="text-xl font-bold">Education</h2>
+            <h2 className="text-2xl font-bold">Education</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
@@ -99,6 +99,10 @@ export default function Page() {
       </section>
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
+          <h2 className="text-4xl font-bold tracking-tighter sm:text-3xl">
+            Skills, tech stack and tools
+          </h2>
+
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Langauges</h2>
           </BlurFade>
@@ -110,7 +114,7 @@ export default function Page() {
             ))}
           </div>
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Frontend Skills</h2>
+            <h2 className="text-xl font-bold">Frontend</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.frontendSkills.map((skill, id) => (
@@ -121,7 +125,7 @@ export default function Page() {
           </div>
 
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Backend Skills</h2>
+            <h2 className="text-xl font-bold">Backend</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.backendSkills.map((skill, id) => (
@@ -141,6 +145,7 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
+          {/* </div> */}
         </div>
       </section>
       <section id="projects">
@@ -151,9 +156,11 @@ export default function Page() {
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                   My Projects
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
-                </h2>
+                <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-3xl">
+                    Check out my work
+                  </h2>
+                </div>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve lead, made and worked on a variety of projects, from
                   simple websites to complex web applications. Here are a few of
@@ -255,7 +262,7 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Testimonials</h2>
+            <h2 className="text-3xl font-bold">Testimonials</h2>
           </BlurFade>
           {DATA.testimonials.map((work, id) => (
             <BlurFade
@@ -298,20 +305,19 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-3xl">
                   Previous portfolios
                 </h2>
                 <p className=" text-muted-bold-foreground md:text-xs/relaxed s:text-base/relaxed s:text-s/relaxed">
                   Portfolios are very important as a developer to showcase your
-                  skills, work and to connect with like minded people
-                  and potential employers. But above all it is also an
-                  opportunity for a developer to stay updated with the design
-                  trends. Ive been working as a web develper since 2021, where
-                  Ive seen design trends change drastically from just static
-                  html, css websites, to complex and attractive 3d websites and
-                  now simple and very well performing bento grids in 2024. Ive
-                  made them all, and hence heres a bunch of my previous
-                  portfolios.
+                  skills, work and to connect with like minded people and
+                  potential employers. But above all it is also an opportunity
+                  for a developer to stay updated with the design trends. Ive
+                  been working as a web develper since 2021, where Ive seen
+                  design trends change drastically from just static html, css
+                  websites, to complex and attractive 3d websites and now simple
+                  and very well performing bento grids in 2024. Ive made them
+                  all, and hence heres a bunch of my previous portfolios.
                 </p>
               </div>
             </div>
