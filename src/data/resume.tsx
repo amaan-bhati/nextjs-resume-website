@@ -140,6 +140,19 @@ export const DATA = {
     },
 
     {
+      company: "KIITFEST",
+      badges: [],
+      href: "https://kiitfest.org",
+      location: "On-Site",
+      title: "Web Developer",
+      logoUrl: "/kiitfest-logo.webp",
+      start: "Dec 2023",
+      end: "Feb 2024",
+      description:
+        "",
+    },
+
+    {
       company: "Ziroh Labs",
       badges: [],
       href: "https://ziroh.social",
