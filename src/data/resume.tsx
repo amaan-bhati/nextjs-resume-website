@@ -411,7 +411,7 @@ export const DATA = {
     {
       title: "React typing js portfolio",
       href: "https://amaanbhati.tech",
-      dates: "June 2021 - Present",
+      dates: "June 2022 - Present",
       active: true,
       description:
         "One of the notable designs I created is built on top of ReactJS, standing tall and responsive for the last two years. This website features a typing effect on the landing page and Particle.js in the background, which was the most trending design pattern for two consecutive years in 2022 and 2023. The typing effect wasn't just popular in portfolio websites but also became a staple in many modern websites of that era. However, this design trend had a dual nature. While the animations in the loader, landing page background, and throughout the website were eye-catching and visually appealing, they came with significant drawbacks. These animations required considerable time to load and perform flawlessly, especially without caching. This not only increased the load time but also affected the website's bandwidth usage, making it more expensive to host and deploy on a domain. Additionally, the performance of the website suffered, with scores below 70 on desktop and below 50 on mobile devices. This led to a poor user experience due to slow loading times and high bandwidth consumption.",
@@ -438,7 +438,7 @@ export const DATA = {
     {
       title: "Nextjs static bento grid",
       href: "https://contact.amaanbhati.tech",
-      dates: "June 2024 - Present",
+      dates: "May 2024 - Present",
       active: true,
       description:
         "Built upon Next.js and TailwindCSS, and enhanced with subtle Framer animations, this website employs the innovative Bento Grid design system of 2024. It features a static and straightforward layout where elements, designed as boxes or cards, are distributed randomly, eschewing parallelism for a dynamic visual appeal. This design is inspired by the Bento Grids system, an advanced iteration of Linktree, which allows users to consolidate links to various social media profiles and other important resources in one streamlined interface. The website is optimized for performance, boasting incredibly fast load and render times that enhance the user experience by 200%. It achieves a perfect SEO score of 100 for both mobile and desktop views, thanks to its minimal bandwidth usage. This efficiency not only ensures a seamless user experience but also provides a cost-effective deployment solution, making it both user-friendly and economical.",
@@ -464,7 +464,7 @@ export const DATA = {
     {
       title: "3d Portfolio Website using threejs",
       href: "https://contact.amaanbhati.tech",
-      dates: "June 2024 - Present",
+      dates: "Oct 2022 - Present",
       active: true,
       description:
         "One of the most accomplished projects is a 3D website built using ReactJS, vanilla CSS, GSAP and Three.js, with Vite for efficient builds. This site was based on the 3D web design trend that surged in popularity in 2022 and 2023, celebrated for its visual appeal and technical sophistication. The website's centerpiece is a captivating 3D model on the landing page, crafted with Three.js, which immediately engages users and sets a dynamic tone for their experience. The design is a masterclass in minimalism, balancing simplicity with innovation. The layout is clean, allowing the 3D features to stand out without overwhelming the user. The color scheme is deliberately minimalistic, offering both light and dark modes that are equally aesthetically pleasing. The light mode provides a fresh, modern look, while the dark mode adds a sleek, sophisticated feel, ensuring the site is visually appealing in any context. Despite the challenges inherent in 3D web design, particularly in maintaining performance, this project successfully optimizes load times and ensures a smooth user experience, a common issue in 3D-heavy sites.",
