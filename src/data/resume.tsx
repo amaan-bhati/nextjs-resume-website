@@ -416,6 +416,19 @@ export const DATA = {
         "Amaan is an exceptional professional with whom I collaborated on a benchmarking-based minor project. His development background, consistency in delivering high-quality work, and ability to tackle complex problems sets him apart. Despite his impressive skills, he remains down-to-earth and humble. He approaches each task with genuine enthusiasm and a willingness to learn, never hesitating to seek input or share his knowledge. His clear communication and patience in explaining technical concepts make him an invaluable team member and an asset to any project or team.",
     },
     
+    {
+      company: "Nandini Pahuja",
+      badges: [],
+      href: "https://www.linkedin.com/in/nandini-pahuja-b81774277?trk=blended-typeahead",
+      location: "On-Site",
+      title: "3rd year student at KIIT University",
+      logoUrl: "/Nandini.webp",
+      start: "",
+      end: "",
+      description:
+        "Amaan Bhati is not only intelligent but also exceptionally hardworking. Whether it’s his own tasks or assisting others, he remains committed until everything is complete. Working with him has always been a pleasure, as his focus is on both personal growth and helping others achieve the same. His ultimate goal is to broaden knowledge and enhance expertise. Additionally, his sense of humor is commendable. As a team lead, he skillfully navigates the next steps while maintaining a healthy work-life balance for himself and his team.",
+    },
+
   ],
 
   portfolio: [
