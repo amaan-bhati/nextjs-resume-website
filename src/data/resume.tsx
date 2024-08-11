@@ -416,6 +416,20 @@ export const DATA = {
         "Amaan is an exceptional professional with whom I collaborated on a benchmarking-based minor project. His development background, consistency in delivering high-quality work, and ability to tackle complex problems sets him apart. Despite his impressive skills, he remains down-to-earth and humble. He approaches each task with genuine enthusiasm and a willingness to learn, never hesitating to seek input or share his knowledge. His clear communication and patience in explaining technical concepts make him an invaluable team member and an asset to any project or team.",
     },
     
+
+    {
+      company: "Alok Kumar Jha",
+      badges: [],
+      href: "https://www.linkedin.com/in/alok-kumar-jha-316572224",
+      location: "On-Site",
+      title: "Ex-SDE Intern at Dell",
+      logoUrl: "/alok-jha.webp",
+      start: "",
+      end: "",
+      description:
+        "Amaan is a creative and talented individual. His technical expertise, combined with his eagerness to learn and experiment, make him an outstanding developer. Having worked with him on various hackathons and projects, I have witnessed his problem-solving abilities and deep technical knowledge firsthand. Beyond his technical skills, Amaan excels as a team leader and communicator while also being a great team player.",
+    },
+
     {
       company: "Nandini Pahuja",
       badges: [],
@@ -429,18 +443,7 @@ export const DATA = {
         "Amaan Bhati is not only intelligent but also exceptionally hardworking. Whether it’s his own tasks or assisting others, he remains committed until everything is complete. Working with him has always been a pleasure, as his focus is on both personal growth and helping others achieve the same. His ultimate goal is to broaden knowledge and enhance expertise. Additionally, his sense of humor is commendable. As a team lead, he skillfully navigates the next steps while maintaining a healthy work-life balance for himself and his team.",
     },
 
-    {
-      company: "Alok Kumar Jha",
-      badges: [],
-      href: "https://www.linkedin.com/in/alok-kumar-jha-316572224",
-      location: "On-Site",
-      title: "Ex-SDE Intern at Dell",
-      logoUrl: "/Nandini.webp",
-      start: "",
-      end: "",
-      description:
-        "Amaan is a creative and talented individual. His technical expertise, combined with his eagerness to learn and experiment, make him an outstanding developer. Having worked with him on various hackathons and projects, I have witnessed his problem-solving abilities and deep technical knowledge firsthand. Beyond his technical skills, Amaan excels as a team leader and communicator while also being a great team player.",
-    },
+   
 
   ],
 
