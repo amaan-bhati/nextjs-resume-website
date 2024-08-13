@@ -12,7 +12,7 @@ export const DATA = {
     "Web Developer with 2+ years of web development experience, aspiring a fulltime software developer role.",
   summary:
     "Result driven final year Computer Science student with a strong aptitude for development and proficiency in modern frameworks. Eager to contribute technical skills and innovation to a dynamic software engineering role in a cutting-edge tech environment. Recognized for being a quick learner with the ability to swiftly adapt to new technology stacks.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.webp",
   skills: [
     "Javascript", "Typescript", "HTML", "CSS", "SQL", "C++", "Python"
 
@@ -60,8 +60,8 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    // { href: "#", icon: CodeIcon, label: "Projects" },
-    // { href: "#", icon: PencilLine, label: "Notes" },
+    // { href: "/testimonials", icon: PencilLine, label: "Testimonials" },
+    // { href: "/projects", icon: CodeIcon, label: "Projects" },
   ],
   contact: {
     email: "amaanbhati49@gmail.com",

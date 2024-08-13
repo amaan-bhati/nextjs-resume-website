@@ -1,4 +1,3 @@
-
 import BlurFade from "@/components/magicui/blur-fade";
 import { ResumeCard } from "@/components/resume-card";
 import { DATA } from "@/data/resume";
@@ -8,9 +7,6 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
-     
-      
-
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -51,8 +47,6 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
-
-     
     </main>
   );
 }

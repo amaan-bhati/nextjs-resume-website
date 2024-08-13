@@ -12,7 +12,7 @@ export const DATA = {
     "Web Developer with 2+ years of web development experience, aspiring a fulltime software developer role.",
   summary:
     "Result driven final year Computer Science student with a strong aptitude for development and proficiency in modern frameworks. Eager to contribute technical skills and innovation to a dynamic software engineering role in a cutting-edge tech environment. Recognized for being a quick learner with the ability to swiftly adapt to new technology stacks",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.webp",
   skills: [
     "React.js",
     "Next.js",
