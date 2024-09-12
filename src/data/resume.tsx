@@ -208,7 +208,7 @@ export const DATA = {
     {
       title: "GITHUB LANDING PAGE CLONE",
       href: "https://github-clone-by-amaan.vercel.app/",
-      dates: "June 2023 - Present",
+      dates: "",
       active: true,
       description:
         "GitHub landing page, meticulously crafted with Next.js, Tailwind CSS, and TypeScript. It boasts pixel-perfect visual fidelity, replicating the original's text animations, fonts, colors, and even animations. Built on top of Next.js, Tailwind CSS, and TypeScript.",
@@ -236,7 +236,7 @@ export const DATA = {
     {//first-project
       title: "React Moodboard",
       href: "https://moodboardbyamaan.vercel.app/",
-      dates: "June 2023 - Present",
+      dates: "",
       active: true,
       description:
         "This project is a user-friendly, interactive moodboard application built with React.js. It empowers users to create visually inspiring collages through intuitive drag-and-drop functionality.",
@@ -266,7 +266,7 @@ export const DATA = {
     {
       title: "Dice roller Threejs",
       href: "https://dice-roller-blond.vercel.app/",
-      dates: "June 2023 - Present",
+      dates: "",
       active: true,
       description:
         "This project is a fun and interactive dice roller application featuring two animated 3D dice models. It simulates a realistic dice roll with animation and provides the sum of both dice as the final output.",
@@ -296,7 +296,7 @@ export const DATA = {
     {
       title: "Drag and drop using computer vision",
       href: "https://github.com/amaan-bhati/drag-and-drop-computer-vision",
-      dates: "June 2023 - Present",
+      dates: "",
       active: true,
       description:
         "Finger Drag & Drop (Python & OpenCV) Control your screen with your fingers! Use computer vision to drag and drop objects for an intuitive and touchless user experience.",
@@ -321,7 +321,7 @@ export const DATA = {
     {
       title: "HEX code opacity Generator",
       href: "https://hexcode-opacity-generator.vercel.app/",
-      dates: "June 2023 - Present",
+      dates: "",
       active: true,
       description:
         "This React.js application empowers you to explore the vast world of color possibilities while streamlining your design process. It serves as a user-friendly hex code opacity generator, offering a convenient and efficient way to generate and adjust hex color codes with varying levels of transparency.",
@@ -376,6 +376,178 @@ export const DATA = {
     
    
   ],
+
+  LeadProjects: [
+    //zeroth-project
+    {
+      title: "MLSAKIIT OFFICIAL WEBSITE",
+      href: "https://mlsakiit.com",
+      dates: "Apr 23 - Jul 23",
+      active: true,
+      description:
+        "Led the design and development of the official Microsoft Learn Student Ambassador KIIT chapter website, building it from the ground up using Next.js before it gained widespread adoption. The website, featuring a sleek dark theme aligned with Microsoft's official UI/UX guidelines, has been live since May 2023. It has successfully attracted over 25,000 unique visitors and efficiently manages more than 2,000 registrations during each community event",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        // "Typing JS",
+        "Swiper JS",
+        "Particle JS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://mlsakiit.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/amaan-bhati/github-landing-page-clone",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "",
+      video: "",
+    },
+
+    {//first-project
+      title: "KIITFEST OFFICIAL WEBSITE",
+      href: "https://kiitfest.org",
+      dates: "Dec 2023 - Feb 2024",
+      active: true,
+      description:
+        "I served as a web developer and organizing committee member for KIITFEST 7.0, where I led the design and development of the website's frontend. The site successfully handled a massive user base of over 40,000 visitors in just 3 days and facilitated more than 20,000 unique registrations. I collaborated closely with the design team and various tech societies to ensure seamless event integration. Additionally, I optimized the website's performance, boosting it from a score of 36 to over 80 ",
+      technologies: [
+        "Next.js",
+        "Javascript",
+        "TailwindCSS",
+        "Prisma",
+        "NeonDB",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://kiitfest.org",
+          icon: <Icons.globe className="size-3" />,
+        },
+        
+      ],
+      image: "",
+      video: "",
+    },
+
+//second-project
+    {
+      title: "LINKTREE MLSA",
+      href: "https://contact-mlsa.vercel",
+      dates: "Jun 2024 - Jul 2024",
+      active: true,
+      description:
+        "This static front-end page serves as the central hub for all updates and information related to MLSAKIIT. It acts as a streamlined, one-stop solution for accessing all social media links and the latest updates in one place. Designed with inspiration from the modern Bento Grids system, this page offers a clean, organized, and visually appealing interface. The code has been meticulously optimized to ensure peak performance, achieving a perfect score of 100 across all devices. I personally designed and developed this page to deliver both functionality and seamless user experience.",
+      technologies: [
+       "Next.js",
+       "TailwindCSS",
+       "Framer Motion",
+       "Typescript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://contact-mlsa.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+       
+      ],
+      image: "",
+      video: "",
+    },
+
+//third-project
+    // {
+    //   title: "TEDXKIIT WEBSITE",
+    //   href: "https://tedxkiituniversity.in",
+    //   dates: "Apr 2023",
+    //   active: true,
+    //   description:
+    //     "Finger Drag & Drop (Python & OpenCV) Control your screen with your fingers! Use computer vision to drag and drop objects for an intuitive and touchless user experience.",
+    //   technologies: [
+    //     "Reactjs",
+    //     "HTML",
+    //     "CSS",
+    //     "Javascript",
+    //   ],
+    //   links: [
+       
+    //     {
+    //       type: "Website",
+    //       href: "https://tedxkiituniversity.in",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "",
+    // },
+
+    //fourth-project
+    // {
+    //   title: "HEX code opacity Generator",
+    //   href: "https://hexcode-opacity-generator.vercel.app/",
+    //   dates: "June 2023 - Present",
+    //   active: true,
+    //   description:
+    //     "This React.js application empowers you to explore the vast world of color possibilities while streamlining your design process. It serves as a user-friendly hex code opacity generator, offering a convenient and efficient way to generate and adjust hex color codes with varying levels of transparency.",
+    //   technologies: [
+    //     "Reactjs",
+    //     "Javascript",
+    //     "CSS",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://hexcode-opacity-generator.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/amaan-bhati/hex-code-generatore",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "",
+    // },
+
+    // //fifth-card
+
+    // {
+    //   title: "Other Projects",
+    //   href: "https://github.com/amaan-bhati",
+    //   dates: "Nov 2021 - Present",
+    //   active: true,
+    //   description:
+    //     "Check out all of my projects by visiting my github and checking out all of the project repositiories. Each project repository contains the source code for the project, detailed about section explaining the project and even live links on each project in case of web development based projects",
+    //   technologies: [
+        
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://amaanbhati.tech/projects/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/amaan-bhati",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "",
+    // },
+    
+   
+  ],
+
 
   testimonials: [
     {
