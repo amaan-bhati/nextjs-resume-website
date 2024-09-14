@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
+import { title } from "process";
 
 export const DATA = {
   
@@ -176,7 +177,7 @@ export const DATA = {
       start: "Mar 2023",
       end: "Apr 2023",
       description:
-        "",
+        "As a web developer and organizing committee member for TEDxKIITUniversity, I played a key role in creating the event's online presence. The website, designed in the iconic TEDx red theme, served as the central hub for all event information and registrations. It featured multiple pages including About, Previous Editions, and detailed information about speakers for each event. The UI was carefully crafted to align with TEDx design patterns, ensuring a cohesive and recognizable brand experience. This comprehensive platform not only facilitated smooth registration processes but also provided visitors with a rich, informative experience about the TEDx events at KIIT University.",
     },
    
     
@@ -462,7 +463,31 @@ export const DATA = {
       video: "",
     },
 
-//third-project
+
+    {
+      title: "TEDXKIITUNIVERSITY WEBSITE",
+      href: "https://tedxkiituniversity.in",
+      dates: "Apr 2023",
+      active: true,
+      description: "As a web developer and organizing committee member for TEDxKIITUniversity, I played a key role in creating the event's online presence. The website, designed in the iconic TEDx red theme, served as the central hub for all event information and registrations. It featured multiple pages including About, Previous Editions, and detailed information about speakers for each event. The UI was carefully crafted to align with TEDx design patterns, ensuring a cohesive and recognizable brand experience. This comprehensive platform not only facilitated smooth registration processes but also provided visitors with a rich, informative experience about the TEDx events at KIIT University.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React.js"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://tedxkiituniversity.in",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+
+// third-project
     // {
     //   title: "TEDXKIIT WEBSITE",
     //   href: "https://tedxkiituniversity.in",

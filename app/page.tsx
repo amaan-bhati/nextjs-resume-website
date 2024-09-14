@@ -163,9 +163,7 @@ export default function Page() {
                 </div>
                 
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve made and worked on a variety of projects, from
-                  simple websites and landing pages to complex web applications. Here are a few of
-                  my favorites.
+                  I&apos;ve worked on a wide range of projects across multiple tech stacks, exploring various domains beyond just web development—driven by curiosity and a passion for learning. All of these projects are available on my GitHub, but here are a few of my personal favorites.
                 </p>
               </div>
             </div>
