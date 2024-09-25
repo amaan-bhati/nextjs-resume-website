@@ -62,7 +62,7 @@ export const DATA = {
     { href: "/", icon: HomeIcon, label: "Home" },
     // { href: "/blog", icon: PencilLine , label: "Blog" },
     { href: "/testimonials", icon: NotebookIcon, label: "Testimonials" },
-    { href: "/projects", icon: CodeIcon, label: "Projects" },
+    { href: "/projectspage", icon: CodeIcon, label: "Projects" },
   ],
   contact: {
     email: "amaanbhati49@gmail.com",

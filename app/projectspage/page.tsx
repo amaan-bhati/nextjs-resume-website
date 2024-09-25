@@ -61,8 +61,7 @@ export default function Page() {
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                   Lead/Group Projects
                 </div>
-                
-              
+                             
               </div>
             </div>
           </BlurFade>
