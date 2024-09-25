@@ -2,7 +2,7 @@ import BlurFade from "@/components/magicui/blur-fade";
 import { ProjectCard } from "@/components/project-card";
 // import { ResumeCard } from "@/components/resume-card";
 import { DATA } from "@/data/resume";
-// import { Tilt } from 'react-next-tilt';
+
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
