@@ -2,7 +2,7 @@ import BlurFade from "@/components/magicui/blur-fade";
 import { ProjectCard } from "@/components/project-card";
 // import { ResumeCard } from "@/components/resume-card";
 import { DATA } from "@/data/resume";
-
+import { Tilt } from 'react-next-tilt';
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -11,13 +11,16 @@ export default function Page() {
        <section id="projects">
         <div className="space-y-10 w-full py-0">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
-            <div className="flex flex-col items-center justify-center space-y-3 text-center">
-              
-                
+            <div className="flex flex-col items-center justify-center space-y-3 text-center">                
                 <div className="flex flex-col items-center justify-center space-y-4 text-center">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-3xl">
                     Check out my work
                   </h2>
+                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  I&apos;ve lead, made and worked on a variety of projects, from
+                  simple websites to complex web applications. Here are a few of
+                  my favorites.
+                </p>
                 </div>
                 {/* <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve lead, made and worked on a variety of projects, from
@@ -59,11 +62,7 @@ export default function Page() {
                   Lead/Group Projects
                 </div>
                 
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve lead, made and worked on a variety of projects, from
-                  simple websites to complex web applications. Here are a few of
-                  my favorites.
-                </p>
+              
               </div>
             </div>
           </BlurFade>
