@@ -573,6 +573,40 @@ export const DATA = {
    
   ],
 
+  uiProjects: [
+    //zeroth-project
+    {
+      title: "Github landing page clone",
+      href: "https://",
+      dates: "",
+      active: true,
+      description:
+        "",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        // "Typing JS",
+        // "Swiper JS",
+        // "Particle JS",
+      ],
+      links: [
+        {
+          type: "Website", 
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/amaan-bhati/github-landing-page-clone",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+  ],
+
 
   testimonials: [
     {
