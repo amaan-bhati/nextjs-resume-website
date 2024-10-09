@@ -123,6 +123,51 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      <section id="portfolio">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 11}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-3xl">
+                  Previous portfolios
+                </h2>
+                <p className=" text-muted-bold-foreground md:text-xs/relaxed s:text-base/relaxed s:text-s/relaxed">
+                  Portfolios are very important as a developer to showcase your
+                  skills, work and to connect with like minded people and
+                  potential employers. But above all it is also an opportunity
+                  for a developer to stay updated with the design trends. Ive
+                  been working as a web develper since 2021, where Ive seen
+                  design trends change drastically from just static html, css
+                  websites, to complex and attractive 3d websites and now simple
+                  and very well performing bento grids in 2024. Ive made them
+                  all, and hence heres a bunch of my previous portfolios.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.portfolio.map((portfolio, id) => (
+              <BlurFade
+                key={portfolio.title}
+                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+              >
+                <ProjectCard
+                  href={portfolio.href}
+                  key={portfolio.title}
+                  title={portfolio.title}
+                  description={portfolio.description}
+                  dates={portfolio.dates}
+                  tags={portfolio.technologies}
+                  image={portfolio.image}
+                  video={portfolio.video}
+                  links={portfolio.links}
+                />
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
