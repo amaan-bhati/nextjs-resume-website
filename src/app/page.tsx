@@ -2,6 +2,7 @@ import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
+import { leadProjectCard } from "../../components/lead-project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -187,6 +188,48 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      {/* <section id="projects">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 11}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Lead Projects
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Check out my work
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  I&apos;ve lead and made variety of projects, from simple
+                  websites to complex web applications. Here are a few of my
+                  favorites.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.LeadProjects.map((leadProject, id) => (
+              <BlurFade
+                key={leadProject.title}
+                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+              >
+                <leadProjectCard
+                  href={leadProject.href}
+                  key={leadProject.title}
+                  title={leadProject.title}
+                  description={leadProject.description}
+                  dates={leadProject.dates}
+                  tags={leadProject.technologies}
+                  image={leadProject.image}
+                  video={leadProject.video}
+                  links={leadProject.links}
+                />
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section> */}
       
      {/* <section id="hackathons">
         <div className="space-y-12 w-full py-12">

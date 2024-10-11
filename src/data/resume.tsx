@@ -576,19 +576,16 @@ export const DATA = {
   uiProjects: [
     //zeroth-project
     {
-      title: "Github landing page clone",
+      title: "First UI Project",
       href: "https://",
       dates: "",
       active: true,
       description:
         "",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        // "Typing JS",
-        // "Swiper JS",
-        // "Particle JS",
+        "TechStack-1",
+        "TechStack-2",
+        "TechStack-3",
       ],
       links: [
         {
@@ -598,13 +595,43 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/amaan-bhati/github-landing-page-clone",
+          href: "",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       video: "",
     },
+
+    {
+      title: "Second UI project",
+      href: "https://",
+      dates: "",
+      active: true,
+      description:
+        "",
+      technologies: [
+        "TechStack-1",
+        "TechStack-2",
+        "TechStack-3",
+      ],
+      links: [
+        {
+          type: "Website", 
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+
+
   ],
 
 
