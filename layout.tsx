@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
+import Head from 'next/head'; // import Head for metadata
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -55,6 +56,38 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <Head>
+        {/* JSON-LD structured data for Google Knowledge Panel */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": DATA.name,
+              "url": DATA.url,
+              "image":
+              [ "https://res.cloudinary.com/dqwbkjfuh/image/upload/v1728581518/hacktober-fest-speech.png", 
+                "https://res.cloudinary.com/dqwbkjfuh/image/upload/v1728581520/Screenshot_2024-10-10_225941_acowhy.png"
+
+               ],
+              "jobTitle": "Web Developer",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Microsoft Learn Student Ambassador"
+              },
+              "sameAs": [
+                "https://www.linkedin.com/in/amaan-bhati/",
+                "https://github.com/amaan-bhati",
+                "https://twitter.com/amaan_bhati",
+                "https://amaanbhati.tech",
+                "https://contact.amaanbhati.tech",
+                "https://blog.amaanbhati.tech"
+              ]
+            })
+          }}
+        />
+      </Head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
