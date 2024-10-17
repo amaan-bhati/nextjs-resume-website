@@ -573,26 +573,29 @@ export const DATA = {
   pythonProjects: [
     //zeroth-project
     {
-      title: "First python Project",
-      href: "https://",
+      title: "Emotion Detection computer vision",
+      href: "https://github.com/amaan-bhati/emotion-detection-using-python/tree/main/EmoTune-main",
       dates: "",
       active: true,
       description:
-        "",
+        "This Python project detects emotions in facial images using image processing, machine learning, and OpenCV. It analyzes and classifies expressions like happiness, sadness, and anger. The project showcases both traditional ML and deep learning approaches to facial emotion recognition, demonstrating practical applications of AI in understanding human expressions.",
       technologies: [
-        "TechStack-1",
-        "TechStack-2",
-        "TechStack-3",
+        "Python",
+        "OpenCV",
+        "TensorFlow",
+        "Scikit-learn",
+        "NumPy",
+        "Pandas",
       ],
       links: [
-        {
-          type: "Website", 
-          href: "",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website", 
+        //   href: "",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
         {
           type: "Source",
-          href: "",
+          href: "https://github.com/amaan-bhati/emotion-detection-using-python/tree/main/EmoTune-main",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -601,26 +604,25 @@ export const DATA = {
     },
 
     {
-      title: "Second python project",
-      href: "https://",
+      title: "Invisibility cloak computer vision",
+      href: "https://github.com/amaan-bhati/invisibility-cloak-using-computer-vision",
       dates: "",
       active: true,
       description:
-        "",
+        "This Python project, inspired by Harry Potter's invisibility cloak, uses computer vision techniques to create a magical illusion. It captures a background image, then uses color detection to identify a specific colored cloth. When that cloth is present in subsequent frames, it's replaced with the background, creating an 'invisibility' effect. The project demonstrates practical applications of image processing and real-time video manipulation using OpenCV and NumPy.",
       technologies: [
-        "TechStack-1",
-        "TechStack-2",
-        "TechStack-3",
+        "Python",
+        "OpenCV",
+        "NumPy",
+        "Color Detection",
+        "Real-Time Video Manipulation",
+      
       ],
       links: [
-        {
-          type: "Website", 
-          href: "",
-          icon: <Icons.globe className="size-3" />,
-        },
+       
         {
           type: "Source",
-          href: "",
+          href: "https://github.com/amaan-bhati/invisibility-cloak-using-computer-vision",
           icon: <Icons.github className="size-3" />,
         },
       ],
