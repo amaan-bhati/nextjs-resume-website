@@ -22,7 +22,7 @@ export default function Page() {
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFadeText
-                delay={BLUR_FADE_DELAY}
+                delay={0}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
                 text={`Hi, I'm ${DATA.name.split(" ")[0]}! `}
@@ -32,27 +32,48 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
-              <div className="flex space-x-4 mt-4">
-                <Link href={DATA.contact.social.GitHub.url} target="_blank" rel="noopener noreferrer">
-                  <DATA.contact.social.GitHub.icon className="w-6 h-6 text-foreground hover:text-primary transition-colors" />
-                </Link>
-                <Link href={DATA.contact.social.LinkedIn.url} target="_blank" rel="noopener noreferrer">
-                  <DATA.contact.social.LinkedIn.icon className="w-6 h-6 text-foreground hover:text-primary transition-colors" />
-                </Link>
-                <Link href={DATA.contact.social.X.url} target="_blank" rel="noopener noreferrer">
-                  <DATA.contact.social.X.icon className="w-6 h-6 text-foreground hover:text-primary transition-colors" />
-                </Link>
-                <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-                  <button className="px-3 py-1 text-sm font-medium text-foreground bg-background border border-foreground rounded hover:bg-foreground hover:text-background transition-colors">
-                    Resume
-                  </button>
-                </Link>
-                <Link href="https://blog.amaanbhati.tech" rel="noopener noreferrer">
-                  <button className="px-3 py-1 text-sm font-medium text-foreground bg-background border border-foreground rounded hover:bg-foreground hover:text-background transition-colors">
-                    Blog
-                  </button>
-                </Link>
-              </div>
+              <BlurFade delay={BLUR_FADE_DELAY}>
+                <div className="flex space-x-4 mt-4">
+                  {/* <Link
+                    href={DATA.contact.social.GitHub.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <DATA.contact.social.GitHub.icon className="w-6 h-6 text-foreground hover:text-primary transition-colors" />
+                  </Link>
+                  <Link
+                    href={DATA.contact.social.LinkedIn.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <DATA.contact.social.LinkedIn.icon className="w-6 h-6 text-foreground hover:text-primary transition-colors" />
+                  </Link>
+                  <Link
+                    href={DATA.contact.social.X.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <DATA.contact.social.X.icon className="w-6 h-6 text-foreground hover:text-primary transition-colors" />
+                  </Link>*/}
+                  <Link
+                    href="/resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  > 
+                    <button className="px-3 py-1 text-sm font-medium text-foreground bg-background border border-foreground rounded hover:bg-foreground hover:text-background transition-colors">
+                      View Resume 
+                    </button>
+                  </Link>
+                  <Link
+                    href="https://blog.amaanbhati.tech"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="px-3 py-1 text-sm font-medium text-foreground bg-background border border-foreground rounded hover:bg-foreground hover:text-background transition-colors">
+                   Read Blogs 
+                    </button>
+                  </Link>
+                </div>{" "}
+              </BlurFade>
             </div>
             {/* <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -177,7 +198,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-              <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                <div className="flex flex-col items-center justify-center space-y-4 text-center">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-3xl">
                     Check out my work
                   </h2>
@@ -185,9 +206,13 @@ export default function Page() {
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                   Personal Projects
                 </div>
-                
+
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a wide range of projects across multiple tech stacks, exploring various domains beyond just web development—driven by curiosity and a passion for learning. All of these projects are available on my GitHub, but here are a few of my personal favorites.
+                  I&apos;ve worked on a wide range of projects across multiple
+                  tech stacks, exploring various domains beyond just web
+                  development—driven by curiosity and a passion for learning.
+                  All of these projects are available on my GitHub, but here are
+                  a few of my personal favorites.
                 </p>
               </div>
             </div>
@@ -223,7 +248,7 @@ export default function Page() {
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                   Lead/Group Projects
                 </div>
-                
+
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve lead, made and worked on a variety of projects, from
                   simple websites to complex web applications. Here are a few of
