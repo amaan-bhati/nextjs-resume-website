@@ -61,7 +61,8 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <ThemeProvider attribute="class" defaultTheme="light">
+        {/* TODO: Keep an eye on this ThemeProvider. It might be a potential reason for production breakdown in the future. */}
+        <ThemeProvider attribute="class" defaultTheme="dark">
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />

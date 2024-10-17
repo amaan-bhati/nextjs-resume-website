@@ -1,4 +1,5 @@
 import { HackathonCard } from "@/components/hackathon-card";
+// import { Icons } from "@/components/icons";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -10,6 +11,8 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
+// This is the page.tsx file that actually works for the main and the hero page
+// It contains the primary content and layout for the home page
 
 export default function Page() {
   return (
@@ -29,6 +32,27 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <div className="flex space-x-4 mt-4">
+                <Link href={DATA.contact.social.GitHub.url} target="_blank" rel="noopener noreferrer">
+                  <DATA.contact.social.GitHub.icon className="w-6 h-6 text-foreground hover:text-primary transition-colors" />
+                </Link>
+                <Link href={DATA.contact.social.LinkedIn.url} target="_blank" rel="noopener noreferrer">
+                  <DATA.contact.social.LinkedIn.icon className="w-6 h-6 text-foreground hover:text-primary transition-colors" />
+                </Link>
+                <Link href={DATA.contact.social.X.url} target="_blank" rel="noopener noreferrer">
+                  <DATA.contact.social.X.icon className="w-6 h-6 text-foreground hover:text-primary transition-colors" />
+                </Link>
+                <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <button className="px-3 py-1 text-sm font-medium text-foreground bg-background border border-foreground rounded hover:bg-foreground hover:text-background transition-colors">
+                    Resume
+                  </button>
+                </Link>
+                <Link href="https://blog.amaanbhati.tech" rel="noopener noreferrer">
+                  <button className="px-3 py-1 text-sm font-medium text-foreground bg-background border border-foreground rounded hover:bg-foreground hover:text-background transition-colors">
+                    Blog
+                  </button>
+                </Link>
+              </div>
             </div>
             {/* <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">

@@ -13,7 +13,9 @@ export const DATA = {
   summary:
     "Result driven final year Computer Science student with a strong aptitude for development and proficiency in modern frameworks. Eager to contribute technical skills and innovation to a dynamic software engineering role in a cutting-edge tech environment. Recognized for being a quick learner with the ability to swiftly adapt to new technology stacks.",
   avatarUrl: "/me.webp",
+
   skills: ["Javascript", "Typescript", "HTML", "CSS", "SQL", "C++", "Python"],
+  
   frontendSkills: [
     "React.js",
     "Next.js",

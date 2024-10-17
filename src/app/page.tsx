@@ -11,6 +11,8 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
+// This file is irrelevant and not the working one. The other page.tsx file was created accidentally.
+// Please refer to the correct file for the actual implementation.
 
 export default function Page() {
   return (
