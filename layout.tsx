@@ -68,7 +68,10 @@ export default function RootLayout({
               "url": DATA.url,
               "image":
               [ "https://res.cloudinary.com/dqwbkjfuh/image/upload/v1728581518/hacktober-fest-speech.png", 
-                "https://res.cloudinary.com/dqwbkjfuh/image/upload/v1728581520/Screenshot_2024-10-10_225941_acowhy.png"
+                "https://res.cloudinary.com/dqwbkjfuh/image/upload/v1728581520/Screenshot_2024-10-10_225941_acowhy.png",
+                "https://res.cloudinary.com/dqwbkjfuh/image/upload/v1728581519/project-wing.png",
+                "https://res.cloudinary.com/dqwbkjfuh/image/upload/v1728581518/stark-expo.png",
+                "https://res.cloudinary.com/dqwbkjfuh/image/upload/v1728581518/pict.png"
 
                ],
               "jobTitle": "Web Developer",
