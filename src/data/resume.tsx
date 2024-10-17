@@ -3,7 +3,6 @@ import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 import { title } from "process";
 
 export const DATA = {
-  
   name: "Amaan Bhati",
   initials: "AB",
   url: "https://amaanbhati.tech",
@@ -14,10 +13,7 @@ export const DATA = {
   summary:
     "Result driven final year Computer Science student with a strong aptitude for development and proficiency in modern frameworks. Eager to contribute technical skills and innovation to a dynamic software engineering role in a cutting-edge tech environment. Recognized for being a quick learner with the ability to swiftly adapt to new technology stacks.",
   avatarUrl: "/me.webp",
-  skills: [
-    "Javascript", "Typescript", "HTML", "CSS", "SQL", "C++", "Python"
-
-  ],
+  skills: ["Javascript", "Typescript", "HTML", "CSS", "SQL", "C++", "Python"],
   frontendSkills: [
     "React.js",
     "Next.js",
@@ -113,7 +109,6 @@ export const DATA = {
         "~KIIT Digital is the tech backbone of KIIT University, responsible for crafting user-friendly interfaces for all university school and conference websites. KIIT Digital also manage and support software applications crucial for the Computer Science & Engineering department, ensuring smooth operation for faculty and students. I worked as a Web/Software developer in order to develop and implement responsive user interfaces (UIs) and software for multiple KIIT University school and conference websites. I also Collaborated closely with KIIT Digital designers to translate UI mockups into user-friendly front-end code. Optimized website UIs for improved user experience (UX) and faster loading times, adhering to best practices for web performance. Implemented accessibility features to ensure all users can navigate KIIT University websites effectively. Utilized modern software technologies to build dynamic and interactive website elements.Established a code review process to maintain code quality and consistency across KIIT Digital projects.",
     },
 
-
     {
       company: "Microsoft Learn Student Ambassador, KIIT Chapter",
       badges: [],
@@ -136,8 +131,7 @@ export const DATA = {
       logoUrl: "/gssoc-logo.webp",
       start: "May 2024",
       end: "Aug 2024",
-      description:
-        "",
+      description: "",
     },
 
     {
@@ -149,8 +143,7 @@ export const DATA = {
       logoUrl: "/kiitfest-logo.webp",
       start: "Dec 2023",
       end: "Feb 2024",
-      description:
-        "",
+      description: "",
     },
 
     {
@@ -162,11 +155,9 @@ export const DATA = {
       logoUrl: "/ziroh-labs-logo.webp",
       start: "Nov 2023",
       end: "Jan 2024",
-      description:
-        "",
+      description: "",
     },
 
-    
     {
       company: "TEDxKIIT",
       badges: [],
@@ -179,8 +170,6 @@ export const DATA = {
       description:
         "As a web developer and organizing committee member for TEDxKIITUniversity, I played a key role in creating the event's online presence. The website, designed in the iconic TEDx red theme, served as the central hub for all event information and registrations. It featured multiple pages including About, Previous Editions, and detailed information about speakers for each event. The UI was carefully crafted to align with TEDx design patterns, ensuring a cohesive and recognizable brand experience. This comprehensive platform not only facilitated smooth registration processes but also provided visitors with a rich, informative experience about the TEDx events at KIIT University.",
     },
-   
-    
   ],
 
   education: [
@@ -200,10 +189,8 @@ export const DATA = {
       start: "2008",
       end: "2021",
     },
-   
-   
   ],
- 
+
   projects: [
     //zeroth-project
     {
@@ -213,11 +200,7 @@ export const DATA = {
       active: true,
       description:
         "GitHub landing page, meticulously crafted with Next.js, Tailwind CSS, and TypeScript. It boasts pixel-perfect visual fidelity, replicating the original's text animations, fonts, colors, and even animations. Built on top of Next.js, Tailwind CSS, and TypeScript.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-      ],
+      technologies: ["Next.js", "Typescript", "TailwindCSS"],
       links: [
         {
           type: "Website",
@@ -234,19 +217,15 @@ export const DATA = {
       video: "",
     },
 
-    {//first-project
+    {
+      //first-project
       title: "React Moodboard",
       href: "https://moodboardbyamaan.vercel.app/",
       dates: "",
       active: true,
       description:
         "This project is a user-friendly, interactive moodboard application built with React.js. It empowers users to create visually inspiring collages through intuitive drag-and-drop functionality.",
-      technologies: [
-        "React.js",
-        "Javascript",
-        "CSS",
-        "Emotion",
-      ],
+      technologies: ["React.js", "Javascript", "CSS", "Emotion"],
       links: [
         {
           type: "Website",
@@ -263,7 +242,7 @@ export const DATA = {
       video: "",
     },
 
-//second-project
+    //second-project
     {
       title: "Dice roller Threejs",
       href: "https://dice-roller-blond.vercel.app/",
@@ -271,12 +250,7 @@ export const DATA = {
       active: true,
       description:
         "This project is a fun and interactive dice roller application featuring two animated 3D dice models. It simulates a realistic dice roll with animation and provides the sum of both dice as the final output.",
-      technologies: [
-        "HTML",
-        "Threejs",
-        "CSS",
-        "HTML Canvas",
-      ],
+      technologies: ["HTML", "Threejs", "CSS", "HTML Canvas"],
       links: [
         {
           type: "Website",
@@ -293,7 +267,7 @@ export const DATA = {
       video: "",
     },
 
-//third-project
+    //third-project
     {
       title: "Drag and drop using computer vision",
       href: "https://github.com/amaan-bhati/drag-and-drop-computer-vision",
@@ -301,13 +275,8 @@ export const DATA = {
       active: true,
       description:
         "Finger Drag & Drop (Python & OpenCV) Control your screen with your fingers! Use computer vision to drag and drop objects for an intuitive and touchless user experience.",
-      technologies: [
-        "Python",
-        "Opencv",
-        "Computer Vision",
-      ],
+      technologies: ["Python", "Opencv", "Computer Vision"],
       links: [
-       
         {
           type: "Source",
           href: "https://github.com/amaan-bhati/drag-and-drop-computer-vision",
@@ -326,11 +295,7 @@ export const DATA = {
       active: true,
       description:
         "This React.js application empowers you to explore the vast world of color possibilities while streamlining your design process. It serves as a user-friendly hex code opacity generator, offering a convenient and efficient way to generate and adjust hex color codes with varying levels of transparency.",
-      technologies: [
-        "Reactjs",
-        "Javascript",
-        "CSS",
-      ],
+      technologies: ["Reactjs", "Javascript", "CSS"],
       links: [
         {
           type: "Website",
@@ -356,9 +321,7 @@ export const DATA = {
       active: true,
       description:
         "Check out all of my projects by visiting my github and checking out all of the project repositiories. Each project repository contains the source code for the project, detailed about section explaining the project and even live links on each project in case of web development based projects",
-      technologies: [
-        
-      ],
+      technologies: [],
       links: [
         {
           type: "Website",
@@ -374,8 +337,6 @@ export const DATA = {
       image: "",
       video: "",
     },
-    
-   
   ],
 
   LeadProjects: [
@@ -411,7 +372,8 @@ export const DATA = {
       video: "",
     },
 
-    {//first-project
+    {
+      //first-project
       title: "KIITFEST OFFICIAL WEBSITE",
       href: "https://kiitfest.org",
       dates: "Dec 2023 - Feb 2024",
@@ -431,13 +393,12 @@ export const DATA = {
           href: "https://kiitfest.org",
           icon: <Icons.globe className="size-3" />,
         },
-        
       ],
       image: "",
       video: "",
     },
 
-//second-project
+    //second-project
     {
       title: "LINKTREE MLSA",
       href: "https://contact-mlsa.vercel",
@@ -445,37 +406,26 @@ export const DATA = {
       active: true,
       description:
         "This static front-end page serves as the central hub for all updates and information related to MLSAKIIT. It acts as a streamlined, one-stop solution for accessing all social media links and the latest updates in one place. Designed with inspiration from the modern Bento Grids system, this page offers a clean, organized, and visually appealing interface. The code has been meticulously optimized to ensure peak performance, achieving a perfect score of 100 across all devices. I personally designed and developed this page to deliver both functionality and seamless user experience.",
-      technologies: [
-       "Next.js",
-       "TailwindCSS",
-       "Framer Motion",
-       "Typescript",
-      ],
+      technologies: ["Next.js", "TailwindCSS", "Framer Motion", "Typescript"],
       links: [
         {
           type: "Website",
           href: "https://contact-mlsa.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
-       
       ],
       image: "",
       video: "",
     },
-
 
     {
       title: "TEDXKIITUNIVERSITY WEBSITE",
       href: "https://tedxkiituniversity.in",
       dates: "Apr 2023",
       active: true,
-      description: "As a web developer and organizing committee member for TEDxKIITUniversity, I played a key role in creating the event's online presence. The website, designed in the iconic TEDx red theme, served as the central hub for all event information and registrations. It featured multiple pages including About, Previous Editions, and detailed information about speakers for each event. The UI was carefully crafted to align with TEDx design patterns, ensuring a cohesive and recognizable brand experience. This comprehensive platform not only facilitated smooth registration processes but also provided visitors with a rich, informative experience about the TEDx events at KIIT University.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React.js"
-      ],
+      description:
+        "As a web developer and organizing committee member for TEDxKIITUniversity, I played a key role in creating the event's online presence. The website, designed in the iconic TEDx red theme, served as the central hub for all event information and registrations. It featured multiple pages including About, Previous Editions, and detailed information about speakers for each event. The UI was carefully crafted to align with TEDx design patterns, ensuring a cohesive and recognizable brand experience. This comprehensive platform not only facilitated smooth registration processes but also provided visitors with a rich, informative experience about the TEDx events at KIIT University.",
+      technologies: ["HTML", "CSS", "JavaScript", "React.js"],
       links: [
         {
           type: "Website",
@@ -487,7 +437,7 @@ export const DATA = {
       video: "",
     },
 
-// third-project
+    // third-project
     // {
     //   title: "TEDXKIIT WEBSITE",
     //   href: "https://tedxkiituniversity.in",
@@ -502,7 +452,7 @@ export const DATA = {
     //     "Javascript",
     //   ],
     //   links: [
-       
+
     //     {
     //       type: "Website",
     //       href: "https://tedxkiituniversity.in",
@@ -552,7 +502,7 @@ export const DATA = {
     //   description:
     //     "Check out all of my projects by visiting my github and checking out all of the project repositiories. Each project repository contains the source code for the project, detailed about section explaining the project and even live links on each project in case of web development based projects",
     //   technologies: [
-        
+
     //   ],
     //   links: [
     //     {
@@ -569,8 +519,6 @@ export const DATA = {
     //   image: "",
     //   video: "",
     // },
-    
-   
   ],
 
   uiProjects: [
@@ -580,16 +528,11 @@ export const DATA = {
       href: "https://",
       dates: "",
       active: true,
-      description:
-        "",
-      technologies: [
-        "TechStack-1",
-        "TechStack-2",
-        "TechStack-3",
-      ],
+      description: "",
+      technologies: ["TechStack-1", "TechStack-2", "TechStack-3"],
       links: [
         {
-          type: "Website", 
+          type: "Website",
           href: "",
           icon: <Icons.globe className="size-3" />,
         },
@@ -608,6 +551,32 @@ export const DATA = {
       href: "https://",
       dates: "",
       active: true,
+      description: "",
+      technologies: ["TechStack-1", "TechStack-2", "TechStack-3"],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+  ],
+
+  pythonProjects: [
+    //zeroth-project
+    {
+      title: "First python Project",
+      href: "https://",
+      dates: "",
+      active: true,
       description:
         "",
       technologies: [
@@ -631,16 +600,43 @@ export const DATA = {
       video: "",
     },
 
+    {
+      title: "Second python project",
+      href: "https://",
+      dates: "",
+      active: true,
+      description:
+        "",
+      technologies: [
+        "TechStack-1",
+        "TechStack-2",
+        "TechStack-3",
+      ],
+      links: [
+        {
+          type: "Website", 
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
 
   ],
-
+  
 
   testimonials: [
     {
       company: "Chatgpt",
       href: "",
       badges: [],
-      location:"",
+      location: "",
       title: "AI Tool at Openai",
       logoUrl: "/chatgpt-logo.webp",
       start: "",
@@ -660,7 +656,7 @@ export const DATA = {
       description:
         "I've had the pleasure of knowing Amaan for the past three years, and I can confidently say that he's not only an exceptional developer but also a remarkable individual. During our time in college, Amaan quickly became the go-to person for anyone needing tech-related assistance or general advice. His vast knowledge across various tech stacks and his willingness to help others—regardless of the complexity of the issue—truly set him apart. Beyond his technical expertise, Amaan is incredibly approachable and patient, qualities that make him a pleasure to work with. He has faced both ups and downs, and his growth and gratitude for his experiences only add to his character. Amaan's dedication, combined with his genuine nature, makes him a standout professional and a wonderful person",
     },
-    
+
     {
       company: "Pradipto Chowdhury",
       badges: [],
@@ -673,7 +669,6 @@ export const DATA = {
       description:
         "Amaan is an exceptional professional with whom I collaborated on a benchmarking-based minor project. His development background, consistency in delivering high-quality work, and ability to tackle complex problems sets him apart. Despite his impressive skills, he remains down-to-earth and humble. He approaches each task with genuine enthusiasm and a willingness to learn, never hesitating to seek input or share his knowledge. His clear communication and patience in explaining technical concepts make him an invaluable team member and an asset to any project or team.",
     },
-    
 
     {
       company: "Alok Kumar Jha",
@@ -700,9 +695,6 @@ export const DATA = {
       description:
         "Amaan Bhati is not only intelligent but also exceptionally hardworking. Whether it’s his own tasks or assisting others, he remains committed until everything is complete. Working with him has always been a pleasure, as his focus is on both personal growth and helping others achieve the same. His ultimate goal is to broaden knowledge and enhance expertise. Additionally, his sense of humor is commendable. As a team lead, he skillfully navigates the next steps while maintaining a healthy work-life balance for himself and his team.",
     },
-
-   
-
   ],
 
   portfolio: [
@@ -714,25 +706,17 @@ export const DATA = {
       active: true,
       description:
         "One of the notable designs I created is built on top of ReactJS, standing tall and responsive for the last two years. This website features a typing effect on the landing page and Particle.js in the background, which was the most trending design pattern for two consecutive years in 2022 and 2023. The typing effect wasn't just popular in portfolio websites but also became a staple in many modern websites of that era. However, this design trend had a dual nature. While the animations in the loader, landing page background, and throughout the website were eye-catching and visually appealing, they came with significant drawbacks. These animations required considerable time to load and perform flawlessly, especially without caching. This not only increased the load time but also affected the website's bandwidth usage, making it more expensive to host and deploy on a domain. Additionally, the performance of the website suffered, with scores below 70 on desktop and below 50 on mobile devices. This led to a poor user experience due to slow loading times and high bandwidth consumption.",
-      technologies: [
-        "React.js",
-        "Javascript",
-        "CSS",
-        "Typingjs",
-        "Particlejs",
-      ],
+      technologies: ["React.js", "Javascript", "CSS", "Typingjs", "Particlejs"],
       links: [
         {
           type: "Website",
           href: "https://amaan-bhati.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
-       
       ],
       image: "",
       video: "",
     },
-
 
     {
       title: "Nextjs static bento grid",
@@ -754,7 +738,6 @@ export const DATA = {
           href: "https://contact.amaanbhati.tech",
           icon: <Icons.globe className="size-3" />,
         },
-       
       ],
       image: "",
       video: "",
@@ -767,25 +750,16 @@ export const DATA = {
       active: true,
       description:
         "One of the most accomplished projects is a 3D website built using ReactJS, vanilla CSS, GSAP and Three.js, with Vite for efficient builds. This site was based on the 3D web design trend that surged in popularity in 2022 and 2023, celebrated for its visual appeal and technical sophistication. The website's centerpiece is a captivating 3D model on the landing page, crafted with Three.js, which immediately engages users and sets a dynamic tone for their experience. The design is a masterclass in minimalism, balancing simplicity with innovation. The layout is clean, allowing the 3D features to stand out without overwhelming the user. The color scheme is deliberately minimalistic, offering both light and dark modes that are equally aesthetically pleasing. The light mode provides a fresh, modern look, while the dark mode adds a sleek, sophisticated feel, ensuring the site is visually appealing in any context. Despite the challenges inherent in 3D web design, particularly in maintaining performance, this project successfully optimizes load times and ensures a smooth user experience, a common issue in 3D-heavy sites.",
-      technologies: [
-        "Reactjs",
-        "Javascript",
-        "CSS",
-        "GSAP",
-        "Javascript",
-      ],
+      technologies: ["Reactjs", "Javascript", "CSS", "GSAP", "Javascript"],
       links: [
         {
           type: "Website",
           href: "https://amaanbhati3dportfolio.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
-       
       ],
       image: "",
       video: "",
-    },  
-
+    },
   ],
-  
 } as const;
