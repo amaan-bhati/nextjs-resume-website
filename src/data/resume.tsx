@@ -526,21 +526,21 @@ export const DATA = {
   uiProjects: [
     //zeroth-project
     {
-      title: "First UI Project",
-      href: "https://",
+      title: "Github Landing page",
+      href: "https://github-clone-by-amaan.vercel.app",
       dates: "",
       active: true,
-      description: "",
-      technologies: ["TechStack-1", "TechStack-2", "TechStack-3"],
+      description: "GitHub landing page, meticulously crafted with Next.js, Tailwind CSS, and TypeScript. It boasts pixel-perfect visual fidelity, replicating the original's text animations, fonts, colors, and even animations. Built on top of Next.js, Tailwind CSS, and TypeScript.",
+      technologies: ["Next.js", "Typescript", "TailwindCSS"],
       links: [
         {
           type: "Website",
-          href: "",
+          href: "https://github-clone-by-amaan.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "",
+          href: "https://github.com/amaan-bhati/github-landing-page-clone",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -549,21 +549,21 @@ export const DATA = {
     },
 
     {
-      title: "Second UI project",
-      href: "https://",
+      title: "Cricket Scoreboard",
+      href: "https://github.com/amaan-bhati/homeseries-scoreboard",
       dates: "",
       active: true,
-      description: "",
-      technologies: ["TechStack-1", "TechStack-2", "TechStack-3"],
+      description: "A dynamic cricket scoreboard that brings the excitement of the game to life! This interactive platform allows you to create and manage your dream matches, complete with real-time score tracking, automated overs management, and a virtual coin toss. With features to add commentary and view detailed statistics, this scoreboard is the perfect tool for cricket enthusiasts to simulate and analyze their favorite matches.",
+      technologies: ["HTML, CSS, Javascript, Bootstrap"],
       links: [
         {
           type: "Website",
-          href: "",
+          href: "https://homeseries-scoreboard.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "",
+          href: "https://github.com/amaan-bhati/homeseries-scoreboard",
           icon: <Icons.github className="size-3" />,
         },
       ],
