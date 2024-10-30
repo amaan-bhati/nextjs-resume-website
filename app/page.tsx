@@ -34,7 +34,7 @@ export default function Page() {
               />
               <BlurFade delay={BLUR_FADE_DELAY}>
                 <div className="flex space-x-4 mt-4">
-                  {/* <Link
+                   <Link
                     href={DATA.contact.social.GitHub.url}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -54,14 +54,14 @@ export default function Page() {
                     rel="noopener noreferrer"
                   >
                     <DATA.contact.social.X.icon className="w-6 h-6 text-foreground hover:text-primary transition-colors" />
-                  </Link>*/}
+                  </Link>
                   <Link
                     href="/resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                   > 
                     <button className="px-3 py-1 text-sm font-medium text-foreground bg-background border border-foreground rounded hover:bg-foreground hover:text-background transition-colors">
-                      View Resume 
+                      Resume 
                     </button>
                   </Link>
                   <Link
@@ -69,7 +69,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                   >
                     <button className="px-3 py-1 text-sm font-medium text-foreground bg-background border border-foreground rounded hover:bg-foreground hover:text-background transition-colors">
-                   Read Blogs 
+                   Blogs
                     </button>
                   </Link>
                 </div>{" "}
