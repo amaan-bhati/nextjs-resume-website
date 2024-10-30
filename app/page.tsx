@@ -38,6 +38,7 @@ export default function Page() {
                     href={DATA.contact.social.GitHub.url}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="GitHub"
                   >
                     <DATA.contact.social.GitHub.icon className="w-6 h-6 text-foreground hover:text-primary transition-colors" />
                   </Link>
@@ -56,7 +57,7 @@ export default function Page() {
                     <DATA.contact.social.X.icon className="w-6 h-6 text-foreground hover:text-primary transition-colors" />
                   </Link>
                   <Link
-                    href="/resume.pdf"
+                    href="https://drive.google.com/file/d/17_n0GDyD6KECGSGHJg8XZBFFVlqRZun9/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                   > 
