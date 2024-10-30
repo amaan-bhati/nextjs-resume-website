@@ -71,21 +71,21 @@ export const DATA = {
         url: "https://github.com/amaan-bhati",
         icon: Icons.github,
 
-        navbar: false,
+        navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://linkedin.com/in/amaan-bhati",
         icon: Icons.linkedin,
 
-        navbar: false,
+        navbar: true,
       },
       X: {
         name: "X",
         url: "https://twitter.com/front_end_er",
         icon: Icons.x,
 
-        navbar: false,
+        navbar: true,
       },
       email: {
         name: "Send Email",
