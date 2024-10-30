@@ -699,6 +699,19 @@ export const DATA = {
       description:
         "Amaan Bhati is not only intelligent but also exceptionally hardworking. Whether it’s his own tasks or assisting others, he remains committed until everything is complete. Working with him has always been a pleasure, as his focus is on both personal growth and helping others achieve the same. His ultimate goal is to broaden knowledge and enhance expertise. Additionally, his sense of humor is commendable. As a team lead, he skillfully navigates the next steps while maintaining a healthy work-life balance for himself and his team.",
     },
+
+    {
+      company: "Ravi Tiwari",
+      badges: [],
+      href: "",
+      location: "On-Site",
+      title: "Ex- App Developer intern at RNF Technologies",
+      logoUrl: "/ravi-tiwari.webp",
+      start: "",
+      end: "",
+      description:
+        "I had the pleasure of exploring Amaan’s work, and I’m genuinely impressed by his technical expertise and creativity. His projects, especially in web development using frameworks like Next.js and Tailwind CSS, reflect a deep understanding of both functionality and user experience. Amaan's portfolio demonstrates his ability to create engaging, high-quality solutions that stand out. His dedication to perfecting each project speaks to his professionalism and passion for his craft.",
+    },
   ],
 
   portfolio: [
