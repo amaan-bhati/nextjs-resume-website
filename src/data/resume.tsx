@@ -58,7 +58,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: PencilLine , label: "Blog" },
+    { href: "/blog", icon: PencilLine , label: "Blog" },
     { href: "/testimonials", icon: NotebookIcon, label: "Testimonials" },
     { href: "/projectspage", icon: CodeIcon, label: "Projects" },
   ],
@@ -71,21 +71,21 @@ export const DATA = {
         url: "https://github.com/amaan-bhati",
         icon: Icons.github,
 
-        navbar: true,
+        navbar: false,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://linkedin.com/in/amaan-bhati",
         icon: Icons.linkedin,
 
-        navbar: true,
+        navbar: false,
       },
       X: {
         name: "X",
         url: "https://twitter.com/front_end_er",
         icon: Icons.x,
 
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
@@ -183,14 +183,14 @@ export const DATA = {
       start: "2021",
       end: "2025",
     },
-    {
-      school: "Pitts Modern School, Bokaro",
-      href: "https://kiit.ac.in",
-      degree: "Upto class 10th and High School education in PCM and CS",
-      logoUrl: "/pms-logo.webp",
-      start: "2008",
-      end: "2021",
-    },
+    // {
+    //   school: "Pitts Modern School, Bokaro",
+    //   href: "https://kiit.ac.in",
+    //   degree: "Upto class 10th and High School education in PCM and CS",
+    //   logoUrl: "/pms-logo.webp",
+    //   start: "2008",
+    //   end: "2021",
+    // },
   ],
 
   projects: [
