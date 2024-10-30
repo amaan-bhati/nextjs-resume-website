@@ -347,7 +347,7 @@ export default function Page() {
         </div>
       </section>*/}
 
-      <section id="work">
+      {/* <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-3xl font-bold">Testimonials</h2>
@@ -386,7 +386,7 @@ export default function Page() {
             </h4>
           </BlurFade>
         </div>
-      </section>
+      </section> */}
 
       <section id="portfolio">
         <div className="space-y-12 w-full py-12">

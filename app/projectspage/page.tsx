@@ -7,7 +7,8 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-3">
+    
+    <main className="flex flex-col min-h-[100dvh] space-y-3 ">
       <section id="projects">
         <div className="space-y-10 w-full py-0">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
