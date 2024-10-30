@@ -58,7 +58,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: PencilLine , label: "Blog" },
+    // { href: "/blog", icon: PencilLine , label: "Blog" },
     { href: "/testimonials", icon: NotebookIcon, label: "Testimonials" },
     { href: "/projectspage", icon: CodeIcon, label: "Projects" },
   ],
