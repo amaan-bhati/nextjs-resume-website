@@ -327,7 +327,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://amaanbhati.tech/projects/",
+          href: "https://amaanbhati.tech/projectspage/",
           icon: <Icons.globe className="size-3" />,
         },
         {
