@@ -8,6 +8,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
+import GitHubCalendar from "react-github-calendar";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
@@ -34,7 +35,7 @@ export default function Page() {
               />
               <BlurFade delay={BLUR_FADE_DELAY}>
                 <div className="flex space-x-4 mt-4">
-                   <Link
+                  <Link
                     href={DATA.contact.social.GitHub.url}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -60,9 +61,9 @@ export default function Page() {
                     href="https://drive.google.com/file/d/17_n0GDyD6KECGSGHJg8XZBFFVlqRZun9/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
-                  > 
+                  >
                     <button className="px-3 py-1 text-sm font-medium text-foreground bg-background border border-foreground rounded hover:bg-foreground hover:text-background transition-colors">
-                      Resume 
+                      Resume
                     </button>
                   </Link>
                   <Link
@@ -70,7 +71,7 @@ export default function Page() {
                     rel="noopener noreferrer"
                   >
                     <button className="px-3 py-1 text-sm font-medium text-foreground bg-background border border-foreground rounded hover:bg-foreground hover:text-background transition-colors">
-                   Blogs
+                      Blogs
                     </button>
                   </Link>
                 </div>{" "}
@@ -95,6 +96,11 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
+      <BlurFade delay={BLUR_FADE_DELAY * 4}>
+        <section id="github">
+          <GitHubCalendar username={"amaan-bhati"} />
+        </section>
+      </BlurFade>
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -144,6 +150,7 @@ export default function Page() {
         </div>
       </section>
       <section id="skills">
+      <BlurFade delay={BLUR_FADE_DELAY * 4}>
         <div className="flex min-h-0 flex-col gap-y-3">
           <h2 className="text-4xl font-bold tracking-tighter sm:text-3xl">
             Skills, tech stack and tools
@@ -193,6 +200,7 @@ export default function Page() {
           </div>
           {/* </div> */}
         </div>
+        </BlurFade>
       </section>
       <section id="projects">
         <div className="space-y-12 w-full py-12">
