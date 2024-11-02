@@ -17,7 +17,7 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
+    <main className="flex flex-col min-h-[100dvh] space-y-6">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -86,6 +86,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+     
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-2xl font-bold">About</h2>
@@ -96,6 +98,27 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
+
+      <section id="images" className="py-1">
+      <BlurFade delay={BLUR_FADE_DELAY * 3}>
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+          <div className="overflow-hidden rounded-lg border">
+            <img src="https://res.cloudinary.com/dqwbkjfuh/image/upload/v1730496263/hacktoberfest.webp" alt="HacktoberfestXmlsa" className="w-full h-auto" />
+          </div>
+          <div className="overflow-hidden rounded-lg border">
+            <img src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_706,w_550/v1730496263/project-wing-mlsa.webp" alt="MLSA Project Wing" className="w-full h-auto" />
+          </div>
+          <div className="overflow-hidden rounded-lg border">
+            <img src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_1400,w_1093/v1730496378/defcon.webp" alt="DEFCON" className="w-full h-auto" />
+          </div>
+          <div className="overflow-hidden rounded-lg border">
+            <img src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_960,w_750/v1730496263/the-stark-expo.webp" alt="The Stark Expo" className="w-full h-auto" />
+          </div>
+        </div></BlurFade>
+      </section>
+
+
+
       {/* <BlurFade delay={BLUR_FADE_DELAY * 4}>
         <section id="github">
           <GitHubCalendar username={"amaan-bhati"} />
