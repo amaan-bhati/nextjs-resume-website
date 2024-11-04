@@ -4,9 +4,17 @@ import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
+import AnimatedGradientText from "@/components/ui/animated-gradient-text";
+import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { BorderBeam } from "@/components/ui/border-beam";
+import { Cover } from "@/components/ui/cover";
+import DotPattern from "@/components/ui/dot-pattern";
+import ShineBorder from "@/components/ui/shine-border";
 import { DATA } from "@/data/resume";
+import { cn } from "@/lib/utils";
+import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 // import GitHubCalendar from "react-github-calendar";
 import Markdown from "react-markdown";
@@ -26,8 +34,15 @@ export default function Page() {
                 delay={0}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]}! `}
+                text={`Hi, I'm 
+                  ${DATA.name.split(" ")[0]}! `}
               />
+               {/* <BlurFade
+                delay={0}
+                // className=" font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+                yOffset={8}>
+                  <p className="text-s sm:text-xs">Building creative and interactive UI in a <Cover>FLASH</Cover></p>
+                </BlurFade> */}
               <BlurFadeText
                 className="max-w-[600px] md:text-xs"
                 delay={BLUR_FADE_DELAY}
@@ -72,7 +87,20 @@ export default function Page() {
                   >
                     <button className="px-3 py-1 text-sm font-medium text-foreground bg-background border border-foreground rounded hover:bg-foreground hover:text-background transition-colors">
                       Blogs
-                    </button>
+                    </button> 
+
+                    {/* <AnimatedGradientText className="px-3 py-1 text-sm">
+                      
+                      <span
+                        className={cn(
+                          `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`
+                        )}
+                      >
+                        Resume
+                      </span>
+                      {/* <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" /> */}
+                    {/* </AnimatedGradientText>  */}
+
                   </Link>
                 </div>{" "}
               </BlurFade>
@@ -88,6 +116,42 @@ export default function Page() {
       </section>
 
      
+
+      <section id="images" className="py-1">
+        <BlurFade delay={BLUR_FADE_DELAY * 3}>
+          <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+            <div className="overflow-hidden rounded-lg border">
+              <img
+                src="https://res.cloudinary.com/dqwbkjfuh/image/upload/v1730496263/hacktoberfest.webp"
+                alt="HacktoberfestXmlsa"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="overflow-hidden rounded-lg border">
+              <img
+                src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_706,w_550/v1730496263/project-wing-mlsa.webp"
+                alt="MLSA Project Wing"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="overflow-hidden rounded-lg border">
+              <img
+                src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_1400,w_1093/v1730496378/defcon.webp"
+                alt="DEFCON"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="overflow-hidden rounded-lg border">
+              <img
+                src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_960,w_750/v1730496263/the-stark-expo.webp"
+                alt="The Stark Expo"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </BlurFade>
+      </section>
+
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-2xl font-bold">About</h2>
@@ -98,26 +162,6 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
-
-      <section id="images" className="py-1">
-      <BlurFade delay={BLUR_FADE_DELAY * 3}>
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
-          <div className="overflow-hidden rounded-lg border">
-            <img src="https://res.cloudinary.com/dqwbkjfuh/image/upload/v1730496263/hacktoberfest.webp" alt="HacktoberfestXmlsa" className="w-full h-auto" />
-          </div>
-          <div className="overflow-hidden rounded-lg border">
-            <img src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_706,w_550/v1730496263/project-wing-mlsa.webp" alt="MLSA Project Wing" className="w-full h-auto" />
-          </div>
-          <div className="overflow-hidden rounded-lg border">
-            <img src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_1400,w_1093/v1730496378/defcon.webp" alt="DEFCON" className="w-full h-auto" />
-          </div>
-          <div className="overflow-hidden rounded-lg border">
-            <img src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_960,w_750/v1730496263/the-stark-expo.webp" alt="The Stark Expo" className="w-full h-auto" />
-          </div>
-        </div></BlurFade>
-      </section>
-
-
 
       {/* <BlurFade delay={BLUR_FADE_DELAY * 4}>
         <section id="github">
@@ -173,56 +217,56 @@ export default function Page() {
         </div>
       </section>
       <section id="skills">
-      <BlurFade delay={BLUR_FADE_DELAY * 4}>
-        <div className="flex min-h-0 flex-col gap-y-3">
-          <h2 className="text-4xl font-bold tracking-tighter sm:text-3xl">
-            Skills, tech stack and tools
-          </h2>
+        <BlurFade delay={BLUR_FADE_DELAY * 4}>
+          <div className="flex min-h-0 flex-col gap-y-3">
+            <h2 className="text-4xl font-bold tracking-tighter sm:text-3xl">
+              Skills, tech stack and tools
+            </h2>
 
-          <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Langauges</h2>
-          </BlurFade>
-          <div className="flex flex-wrap gap-1">
-            {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
-              </BlurFade>
-            ))}
-          </div>
-          <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Frontend</h2>
-          </BlurFade>
-          <div className="flex flex-wrap gap-1">
-            {DATA.frontendSkills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
-              </BlurFade>
-            ))}
-          </div>
+            <BlurFade delay={BLUR_FADE_DELAY * 9}>
+              <h2 className="text-xl font-bold">Langauges</h2>
+            </BlurFade>
+            <div className="flex flex-wrap gap-1">
+              {DATA.skills.map((skill, id) => (
+                <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                  <Badge key={skill}>{skill}</Badge>
+                </BlurFade>
+              ))}
+            </div>
+            <BlurFade delay={BLUR_FADE_DELAY * 9}>
+              <h2 className="text-xl font-bold">Frontend</h2>
+            </BlurFade>
+            <div className="flex flex-wrap gap-1">
+              {DATA.frontendSkills.map((skill, id) => (
+                <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                  <Badge key={skill}>{skill}</Badge>
+                </BlurFade>
+              ))}
+            </div>
 
-          <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Backend</h2>
-          </BlurFade>
-          <div className="flex flex-wrap gap-1">
-            {DATA.backendSkills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
-              </BlurFade>
-            ))}
-          </div>
+            <BlurFade delay={BLUR_FADE_DELAY * 9}>
+              <h2 className="text-xl font-bold">Backend</h2>
+            </BlurFade>
+            <div className="flex flex-wrap gap-1">
+              {DATA.backendSkills.map((skill, id) => (
+                <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                  <Badge key={skill}>{skill}</Badge>
+                </BlurFade>
+              ))}
+            </div>
 
-          <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Tools</h2>
-          </BlurFade>
-          <div className="flex flex-wrap gap-1">
-            {DATA.tools.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
-              </BlurFade>
-            ))}
+            <BlurFade delay={BLUR_FADE_DELAY * 9}>
+              <h2 className="text-xl font-bold">Tools</h2>
+            </BlurFade>
+            <div className="flex flex-wrap gap-1">
+              {DATA.tools.map((skill, id) => (
+                <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                  <Badge key={skill}>{skill}</Badge>
+                </BlurFade>
+              ))}
+            </div>
+            {/* </div> */}
           </div>
-          {/* </div> */}
-        </div>
         </BlurFade>
       </section>
       <section id="projects">
@@ -295,17 +339,23 @@ export default function Page() {
                 key={project.title}
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
               >
-                <ProjectCard
-                  href={project.href}
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  dates={project.dates}
-                  tags={project.technologies}
-                  image={project.image}
-                  video={project.video}
-                  links={project.links}
-                />
+                {/* <ShineBorder
+                  className="relative flex  w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
+                  color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+                > */}
+                  <ProjectCard
+                    href={project.href}
+                    key={project.title}
+                    title={project.title}
+                    description={project.description}
+                    dates={project.dates}
+                    tags={project.technologies}
+                    image={project.image}
+                    video={project.video}
+                    links={project.links}
+                  />
+                {/* </ShineBorder> */}
+                {/* <BorderBeam size={250} duration={12} delay={9} /> */}
               </BlurFade>
             ))}
           </div>
@@ -448,6 +498,10 @@ export default function Page() {
                 key={portfolio.title}
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
               >
+              {/* <ShineBorder
+                  className="relative flex  w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
+                  color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+                >  */}
                 <ProjectCard
                   href={portfolio.href}
                   key={portfolio.title}
@@ -459,10 +513,26 @@ export default function Page() {
                   video={portfolio.video}
                   links={portfolio.links}
                 />
+                {/* </ShineBorder> */}
               </BlurFade>
             ))}
           </div>
         </div>
+        {/* <AnimatedGridPattern
+          numSquares={30}
+          maxOpacity={0.1}
+          duration={3}
+          repeatDelay={1}
+          className={cn(
+            "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
+            "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12"
+          )}
+        /> */}
+        {/* <DotPattern
+        className={cn(
+          "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]",
+        )}
+      /> */}
       </section>
     </main>
   );
