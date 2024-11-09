@@ -23,6 +23,7 @@
     "next": "^14.2.5",
     "next-themes": "^0.3.0",
     "react": "^18",
+    "react-activity-calendar": "^2.7.1",
     "react-dom": "^18",
     "react-github-calendar": "^4.5.1",
     "react-markdown": "^9.0.1",
