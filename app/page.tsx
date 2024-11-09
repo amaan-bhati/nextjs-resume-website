@@ -124,28 +124,29 @@ export default function Page() {
               <img
                 src="https://res.cloudinary.com/dqwbkjfuh/image/upload/v1730496263/hacktoberfest.webp"
                 alt="HacktoberfestXmlsa"
-                className="w-full h-auto"
+                className="w-full h-full"
               />
             </div>
             <div className="overflow-hidden rounded-lg border">
               <img
-                src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_706,w_550/v1730496263/project-wing-mlsa.webp"
-                alt="MLSA Project Wing"
-                className="w-full h-auto"
-              />
-            </div>
-            <div className="overflow-hidden rounded-lg border">
-              <img
-                src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_1400,w_1093/v1730496378/defcon.webp"
+                src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_700,w_600/v1731164011/Screenshot_2024-11-09_202310_rkeq0d.png"
                 alt="DEFCON"
-                className="w-full h-auto"
+                className="w-full h-full"
               />
             </div>
+            <div className="overflow-hidden rounded-lg border">
+              <img
+                src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_600,w_500/v1731163451/Screenshot_2024-11-09_201329_sg5szq.png"
+                alt="MLSA Project Wing"
+                className="w-full h-full"
+              />
+            </div>
+            
             <div className="overflow-hidden rounded-lg border">
               <img
                 src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_960,w_750/v1730496263/the-stark-expo.webp"
                 alt="The Stark Expo"
-                className="w-full h-auto"
+                className="w-full h-full"
               />
             </div>
           </div>
