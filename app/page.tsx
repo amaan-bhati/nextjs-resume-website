@@ -129,14 +129,14 @@ export default function Page() {
             </div>
             <div className="overflow-hidden rounded-lg border">
               <img
-                src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_700,w_600/v1731164011/Screenshot_2024-11-09_202310_rkeq0d.png"
+                src="/deffcon.webp"
                 alt="DEFCON"
                 className="w-full h-full"
               />
             </div>
             <div className="overflow-hidden rounded-lg border">
               <img
-                src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_600,w_500/v1731163451/Screenshot_2024-11-09_201329_sg5szq.png"
+                src="/web-team.webp"
                 alt="MLSA Project Wing"
                 className="w-full h-full"
               />
