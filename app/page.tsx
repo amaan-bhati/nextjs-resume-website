@@ -154,11 +154,7 @@ export default function Page() {
         </BlurFade>
       </section>
 
-      <BlurFade delay={BLUR_FADE_DELAY * 4}>
-        <section id="github">
-          <GitHubCalendar username={"amaan-bhati"} />
-        </section>
-      </BlurFade>
+     
 
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
@@ -197,6 +193,12 @@ export default function Page() {
           ))}
         </div>
       </section>
+
+      <BlurFade delay={BLUR_FADE_DELAY * 4}>
+        <section id="github">
+          <GitHubCalendar username={"amaan-bhati"} />
+        </section>
+      </BlurFade>
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
@@ -273,6 +275,8 @@ export default function Page() {
           </div>
         </BlurFade>
       </section>
+
+      
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
