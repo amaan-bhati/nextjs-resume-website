@@ -8,6 +8,7 @@ import { ResumeCard } from "@/components/resume-card";
 // import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
 // import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import HyperText from "@/components/ui/hyper-text";
 // import { BorderBeam } from "@/components/ui/border-beam";
 // import { Cover } from "@/components/ui/cover";
 // import DotPattern from "@/components/ui/dot-pattern";
@@ -31,19 +32,32 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
-              <BlurFadeText
+              {/* <BlurFadeText
                 delay={0}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
                 text={`Hi, I'm 
                   ${DATA.name.split(" ")[0]}! `}
-              />
-               {/* <BlurFade
+              /> */}
+              {/* <BlurFade
                 delay={0}
                 // className=" font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}>
                   <p className="text-s sm:text-xs">Building creative and interactive UI in a <Cover>FLASH</Cover></p>
                 </BlurFade> */}
+
+              <BlurFade
+                delay={0}
+                className="text-7xl font-bold tracking-tighter sm:text-6xl xl:text-7xl/none"
+                yOffset={8}
+              >
+               
+                  <HyperText
+                    className="text-5xl font-bold text-black dark:text-white"
+                    text="Hi Im Amaan!"
+                  />
+              
+              </BlurFade>
               <BlurFadeText
                 className="max-w-[600px] md:text-xs"
                 delay={BLUR_FADE_DELAY}
@@ -88,7 +102,7 @@ export default function Page() {
                   >
                     <button className="px-3 py-1 text-sm font-medium text-foreground bg-background border border-foreground rounded hover:bg-foreground hover:text-background transition-colors">
                       Blogs
-                    </button> 
+                    </button>
 
                     {/* <AnimatedGradientText className="px-3 py-1 text-sm">
                       
@@ -101,7 +115,6 @@ export default function Page() {
                       </span>
                       {/* <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" /> */}
                     {/* </AnimatedGradientText>  */}
-
                   </Link>
                 </div>{" "}
               </BlurFade>
@@ -116,8 +129,6 @@ export default function Page() {
         </div>
       </section>
 
-     
-
       <section id="images" className="py-1">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
@@ -129,11 +140,7 @@ export default function Page() {
               />
             </div>
             <div className="overflow-hidden rounded-lg border">
-              <img
-                src="/deffcon.webp"
-                alt="DEFCON"
-                className="w-full h-full"
-              />
+              <img src="/deffcon.webp" alt="DEFCON" className="w-full h-full" />
             </div>
             <div className="overflow-hidden rounded-lg border">
               <img
@@ -142,7 +149,7 @@ export default function Page() {
                 className="w-full h-full"
               />
             </div>
-            
+
             <div className="overflow-hidden rounded-lg border">
               <img
                 src="https://res.cloudinary.com/dqwbkjfuh/image/upload/c_scale,h_960,w_750/v1730496263/the-stark-expo.webp"
@@ -153,8 +160,6 @@ export default function Page() {
           </div>
         </BlurFade>
       </section>
-
-     
 
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
@@ -167,7 +172,6 @@ export default function Page() {
         </BlurFade>
       </section>
 
-     
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -276,7 +280,6 @@ export default function Page() {
         </BlurFade>
       </section>
 
-      
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -351,17 +354,17 @@ export default function Page() {
                   className="relative flex  w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
                   color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
                 > */}
-                  <ProjectCard
-                    href={project.href}
-                    key={project.title}
-                    title={project.title}
-                    description={project.description}
-                    dates={project.dates}
-                    tags={project.technologies}
-                    image={project.image}
-                    video={project.video}
-                    links={project.links}
-                  />
+                <ProjectCard
+                  href={project.href}
+                  key={project.title}
+                  title={project.title}
+                  description={project.description}
+                  dates={project.dates}
+                  tags={project.technologies}
+                  image={project.image}
+                  video={project.video}
+                  links={project.links}
+                />
                 {/* </ShineBorder> */}
                 {/* <BorderBeam size={250} duration={12} delay={9} /> */}
               </BlurFade>
@@ -506,7 +509,7 @@ export default function Page() {
                 key={portfolio.title}
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
               >
-              {/* <ShineBorder
+                {/* <ShineBorder
                   className="relative flex  w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
                   color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
                 >  */}
