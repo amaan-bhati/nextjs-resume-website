@@ -17,7 +17,7 @@ import { DATA } from "@/data/resume";
 // import { cn } from "@/lib/utils";
 // import { ChevronRight } from "lucide-react";
 import Link from "next/link";
-import GitHubCalendar from "react-github-calendar";
+// import GitHubCalendar from "react-github-calendar";
 // import GitHubCalendar from "react-github-calendar";
 import Markdown from "react-markdown";
 
@@ -198,11 +198,11 @@ export default function Page() {
         </div>
       </section>
 
-      <BlurFade delay={BLUR_FADE_DELAY * 4}>
+      {/* <BlurFade delay={BLUR_FADE_DELAY * 4}>
         <section id="github">
           <GitHubCalendar username={"amaan-bhati"} />
         </section>
-      </BlurFade>
+      </BlurFade> */}
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
