@@ -32,20 +32,20 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
-              {/* <BlurFadeText
+              <BlurFadeText
                 delay={0}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
                 text={`Hi, I'm 
                   ${DATA.name.split(" ")[0]}! `}
-              /> */}
+              />
               {/* <BlurFade
                 delay={0}
                 // className=" font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}>
                   <p className="text-s sm:text-xs">Building creative and interactive UI in a <Cover>FLASH</Cover></p>
                 </BlurFade> */}
-              <BlurFade
+              {/* <BlurFade
                 delay={0}
                 className="text-7xl font-bold tracking-tighter sm:text-6xl xl:text-7xl/none"
                 yOffset={8}
@@ -56,7 +56,7 @@ export default function Page() {
                     text="Hi Im Amaan!"
                   />
               
-              </BlurFade>
+              </BlurFade> */}
               <BlurFadeText
                 className="max-w-[600px] md:text-xs"
                 delay={BLUR_FADE_DELAY}
