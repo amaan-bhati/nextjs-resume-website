@@ -570,6 +570,50 @@ export const DATA = {
       image: "",
       video: "",
     },
+    // {
+    //   title: "Cricket Scoreboard",
+    //   href: "https://github.com/amaan-bhati/homeseries-scoreboard",
+    //   dates: "",
+    //   active: true,
+    //   description: "A dynamic cricket scoreboard that brings the excitement of the game to life! This interactive platform allows you to create and manage your dream matches, complete with real-time score tracking, automated overs management, and a virtual coin toss. With features to add commentary and view detailed statistics, this scoreboard is the perfect tool for cricket enthusiasts to simulate and analyze their favorite matches.",
+    //   technologies: ["HTML, CSS, Javascript, Bootstrap"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://homeseries-scoreboard.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/amaan-bhati/homeseries-scoreboard",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "",
+    // },
+    // {
+    //   title: "Cricket Scoreboard",
+    //   href: "https://github.com/amaan-bhati/homeseries-scoreboard",
+    //   dates: "",
+    //   active: true,
+    //   description: "A dynamic cricket scoreboard that brings the excitement of the game to life! This interactive platform allows you to create and manage your dream matches, complete with real-time score tracking, automated overs management, and a virtual coin toss. With features to add commentary and view detailed statistics, this scoreboard is the perfect tool for cricket enthusiasts to simulate and analyze their favorite matches.",
+    //   technologies: ["HTML, CSS, Javascript, Bootstrap"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://homeseries-scoreboard.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/amaan-bhati/homeseries-scoreboard",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "",
+    // },
   ],
 
   pythonProjects: [
